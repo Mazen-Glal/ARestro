@@ -1,5 +1,5 @@
 import 'package:arestro/core/utils/functions/get_device_info.dart';
-import 'package:arestro/core/utils/models/device_info.dart';
+import 'package:arestro/core/utils/models/device_models/device_info.dart';
 import 'package:flutter/material.dart';
 
 class InfoWidget extends StatelessWidget {
