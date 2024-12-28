@@ -1,25 +1,30 @@
-import 'package:flutter/material.dart';
+import 'package:arestro/features/auth/presentation/views/auth_view.dart';
+import 'package:arestro/features/auth/presentation/views/login_view.dart';
+import 'package:arestro/features/auth/presentation/views/register_view.dart';
 import 'package:go_router/go_router.dart';
 class RouteHelper {
   static late String path;
   static final _router = GoRouter(
     initialLocation: path,
     routes: [
-      // Splash and OnBoarding and Location Access Permission
-      // GoRoute(
-      //   path: SplashView.rn,
-      //   builder: (context, state) => const SplashView(),
-      // ),
       GoRoute(
-        path: '/',
-        builder: (context, state) => const Scaffold(),
+        path: AuthView.rn,
+        builder: (context, state) => const AuthView(),
+      ),
+      GoRoute(
+        path: LoginView.rn,
+        builder: (context, state) => const LoginView(),
+      ),
+      GoRoute(
+        path: RegisterView.rn,
+        builder: (context, state) => const RegisterView(),
       ),
     ],
   );
 
   static GoRouter get getRouter {
     // path = SplashView.rn;
-    path = '/';
+    path = AuthView.rn;
     return _router;
   }
 }

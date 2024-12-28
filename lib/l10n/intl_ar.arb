@@ -1,3 +1,5 @@
 {
-  "app_name": "مطعم"
+  "app_name": "ARestro",
+  "sign_up": "انشاء حساب",
+  "log_in": "تسجيل الدخول"
 }

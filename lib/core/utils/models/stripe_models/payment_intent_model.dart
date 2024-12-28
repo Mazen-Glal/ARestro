@@ -80,54 +80,54 @@ class PaymentIntentModel {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = Map<String, dynamic>();
-    data['id'] = this.id;
-    data['object'] = this.object;
-    data['amount'] = this.amount;
-    data['amount_capturable'] = this.amountCapturable;
-    if (this.amountDetails != null) {
-      data['amount_details'] = this.amountDetails!.toJson();
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['id'] = id;
+    data['object'] = object;
+    data['amount'] = amount;
+    data['amount_capturable'] = amountCapturable;
+    if (amountDetails != null) {
+      data['amount_details'] = amountDetails!.toJson();
     }
-    data['amount_received'] = this.amountReceived;
-    data['application'] = this.application;
-    data['application_fee_amount'] = this.applicationFeeAmount;
-    if (this.automaticPaymentMethods != null) {
-      data['automatic_payment_methods'] = this.automaticPaymentMethods!.toJson();
+    data['amount_received'] = amountReceived;
+    data['application'] = application;
+    data['application_fee_amount'] = applicationFeeAmount;
+    if (automaticPaymentMethods != null) {
+      data['automatic_payment_methods'] = automaticPaymentMethods!.toJson();
     }
-    data['canceled_at'] = this.canceledAt;
-    data['cancellation_reason'] = this.cancellationReason;
-    data['capture_method'] = this.captureMethod;
-    data['client_secret'] = this.clientSecret;
-    data['confirmation_method'] = this.confirmationMethod;
-    data['created'] = this.created;
-    data['currency'] = this.currency;
-    data['customer'] = this.customer;
-    data['description'] = this.description;
-    data['invoice'] = this.invoice;
-    data['last_payment_error'] = this.lastPaymentError;
-    data['latest_charge'] = this.latestCharge;
-    data['livemode'] = this.livemode;
-    if (this.metadata != null) {
-      data['metadata'] = this.metadata!.toJson();
+    data['canceled_at'] = canceledAt;
+    data['cancellation_reason'] = cancellationReason;
+    data['capture_method'] = captureMethod;
+    data['client_secret'] = clientSecret;
+    data['confirmation_method'] = confirmationMethod;
+    data['created'] = created;
+    data['currency'] = currency;
+    data['customer'] = customer;
+    data['description'] = description;
+    data['invoice'] = invoice;
+    data['last_payment_error'] = lastPaymentError;
+    data['latest_charge'] = latestCharge;
+    data['livemode'] = livemode;
+    if (metadata != null) {
+      data['metadata'] = metadata!.toJson();
     }
-    data['next_action'] = this.nextAction;
-    data['on_behalf_of'] = this.onBehalfOf;
-    data['payment_method'] = this.paymentMethod;
-    if (this.paymentMethodOptions != null) {
-      data['payment_method_options'] = this.paymentMethodOptions!.toJson();
+    data['next_action'] = nextAction;
+    data['on_behalf_of'] = onBehalfOf;
+    data['payment_method'] = paymentMethod;
+    if (paymentMethodOptions != null) {
+      data['payment_method_options'] = paymentMethodOptions!.toJson();
     }
-    data['payment_method_types'] = this.paymentMethodTypes;
-    data['processing'] = this.processing;
-    data['receipt_email'] = this.receiptEmail;
-    data['review'] = this.review;
-    data['setup_future_usage'] = this.setupFutureUsage;
-    data['shipping'] = this.shipping;
-    data['source'] = this.source;
-    data['statement_descriptor'] = this.statementDescriptor;
-    data['statement_descriptor_suffix'] = this.statementDescriptorSuffix;
-    data['status'] = this.status;
-    data['transfer_data'] = this.transferData;
-    data['transfer_group'] = this.transferGroup;
+    data['payment_method_types'] = paymentMethodTypes;
+    data['processing'] = processing;
+    data['receipt_email'] = receiptEmail;
+    data['review'] = review;
+    data['setup_future_usage'] = setupFutureUsage;
+    data['shipping'] = shipping;
+    data['source'] = source;
+    data['statement_descriptor'] = statementDescriptor;
+    data['statement_descriptor_suffix'] = statementDescriptorSuffix;
+    data['status'] = status;
+    data['transfer_data'] = transferData;
+    data['transfer_group'] = transferGroup;
     return data;
   }
 }
@@ -142,9 +142,9 @@ class AmountDetails {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = Map<String, dynamic>();
-    if (this.tip != null) {
-      data['tip'] = this.tip!.toJson();
+    final Map<String, dynamic> data = <String, dynamic>{};
+    if (tip != null) {
+      data['tip'] = tip!.toJson();
     }
     return data;
   }
@@ -155,11 +155,10 @@ class Tip {
 
   Tip();
 
-  Tip.fromJson(Map<String, dynamic> json) {
-  }
+  Tip.fromJson(Map<String, dynamic> json);
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = Map<String, dynamic>();
+    final Map<String, dynamic> data = <String, dynamic>{};
     return data;
   }
 }
@@ -174,8 +173,8 @@ class AutomaticPaymentMethods {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = Map<String, dynamic>();
-    data['enabled'] = this.enabled;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['enabled'] = enabled;
     return data;
   }
 }
@@ -192,12 +191,12 @@ class PaymentMethodOptions {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = Map<String, dynamic>();
-    if (this.card != null) {
-      data['card'] = this.card!.toJson();
+    final Map<String, dynamic> data = <String, dynamic>{};
+    if (card != null) {
+      data['card'] = card!.toJson();
     }
-    if (this.link != null) {
-      data['link'] = this.link!.toJson();
+    if (link != null) {
+      data['link'] = link!.toJson();
     }
     return data;
   }
@@ -219,11 +218,11 @@ class Card {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = Map<String, dynamic>();
-    data['installments'] = this.installments;
-    data['mandate_options'] = this.mandateOptions;
-    data['network'] = this.network;
-    data['request_three_d_secure'] = this.requestThreeDSecure;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['installments'] = installments;
+    data['mandate_options'] = mandateOptions;
+    data['network'] = network;
+    data['request_three_d_secure'] = requestThreeDSecure;
     return data;
   }
 }
@@ -238,8 +237,8 @@ class Link {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = Map<String, dynamic>();
-    data['persistent_token'] = this.persistentToken;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['persistent_token'] = persistentToken;
     return data;
   }
 }

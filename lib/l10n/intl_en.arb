@@ -1,3 +1,5 @@
 {
-  "app_name": "ARestro"
+  "app_name": "ARestro",
+  "sign_up": "Sign Up",
+  "log_in": "Log In"
 }

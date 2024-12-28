@@ -1,4 +1,4 @@
-class Assets{
+abstract class Assets{
   static const String namedWhiteLogo = 'assets/logo/name_logo_white.svg';
   static const String namedBlackLogo = 'assets/logo/name_logo_black.svg';
   static const String logoWithoutName = 'assets/logo/logo_without_name.svg';
