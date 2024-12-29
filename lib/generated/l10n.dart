@@ -120,6 +120,16 @@ class S {
     );
   }
 
+  /// `Enter Your Email`
+  String get enter_email {
+    return Intl.message(
+      'Enter Your Email',
+      name: 'enter_email',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Remember Me`
   String get remember_me {
     return Intl.message(
@@ -135,6 +145,16 @@ class S {
     return Intl.message(
       'Forget Password?',
       name: 'forget_pass',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forget Password`
+  String get forget_password {
+    return Intl.message(
+      'Forget Password',
+      name: 'forget_password',
       desc: '',
       args: [],
     );
@@ -215,6 +235,106 @@ class S {
     return Intl.message(
       'Already have an account ?',
       name: 'already_have_account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Send Code`
+  String get send_code {
+    return Intl.message(
+      'Send Code',
+      name: 'send_code',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don’t worry! It happens. Please enter the email associated with your account.`
+  String get description_forget_pass {
+    return Intl.message(
+      'Don’t worry! It happens. Please enter the email associated with your account.',
+      name: 'description_forget_pass',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Remember Password`
+  String get remember_pass {
+    return Intl.message(
+      'Remember Password',
+      name: 'remember_pass',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Reset Password`
+  String get reset_pass {
+    return Intl.message(
+      'Reset Password',
+      name: 'reset_pass',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter New Password`
+  String get enter_new_pass {
+    return Intl.message(
+      'Enter New Password',
+      name: 'enter_new_pass',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Repeat New Password`
+  String get repeat_new_pass {
+    return Intl.message(
+      'Repeat New Password',
+      name: 'repeat_new_pass',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please type something you’ll remember`
+  String get description_reset_pass {
+    return Intl.message(
+      'Please type something you’ll remember',
+      name: 'description_reset_pass',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Back to Login`
+  String get back_to_login {
+    return Intl.message(
+      'Back to Login',
+      name: 'back_to_login',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password Changed`
+  String get pass_changed {
+    return Intl.message(
+      'Password Changed',
+      name: 'pass_changed',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Your Password has been changed successfully`
+  String get description_pass_changed {
+    return Intl.message(
+      'Your Password has been changed successfully',
+      name: 'description_pass_changed',
       desc: '',
       args: [],
     );

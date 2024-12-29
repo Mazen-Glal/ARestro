@@ -5,9 +5,11 @@
   "email": "الايميل",
   "password": "الرقم السري",
   "email_example":"example@gmail.com",
+  "enter_email": "ادخل الايميل الخاص بك",
   "enter_pass": "أدخل الرقم السري",
   "remember_me": "تذكرني",
   "forget_pass": "هل نسيت الرقم السري؟",
+  "forget_password": "هل نسيت الرقم السري",
   "or_continue_with": "or continue with",
   "login_with_google":"تسجيل الدخول بجوجل",
   "signup_with_google":"انشاء حساب بجوجل",
@@ -15,6 +17,15 @@
   "create_an_account": "انشاء حساب",
   "enter_your_username": "ادخل اسم المستخدم",
   "enter_phone": "ادخل رقم التليفون",
-  "already_have_account":"هل لديك حساب؟"
-
+  "already_have_account":"هل لديك حساب؟",
+  "send_code": "ارسال الكود",
+  "description_forget_pass": "لا تقلق هذا يحدث ,ادخل الايميل الخاص بك فقط",
+  "remember_pass": "تذكر الرقم السري",
+  "reset_pass": "أعادة الرقم السري",
+  "enter_new_pass": "ادخل رقم سري جديد",
+  "repeat_new_pass": "اعادة الرقم السري",
+  "description_reset_pass": "ارجوك ادخل رقم تستطيع تذكره",
+  "back_to_login": "العودة الي صفحة تسجيل الدخول",
+  "pass_changed": "تم تغير الرقم السري",
+  "description_pass_changed": "تم تغير الرقم السري بنجاح"
 }

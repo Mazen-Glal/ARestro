@@ -6,8 +6,10 @@
   "password": "Password",
   "email_example":"example@gmail.com",
   "enter_pass": "Enter Your Password",
+  "enter_email": "Enter Your Email",
   "remember_me": "Remember Me",
   "forget_pass": "Forget Password?",
+  "forget_password": "Forget Password",
   "or_continue_with": "or continue with",
   "login_with_google":"Login With Google",
   "signup_with_google":"SignUp With Google",
@@ -15,5 +17,15 @@
   "create_an_account": "Create an account",
   "enter_your_username": "Enter Your Username",
   "enter_phone": "Enter Your Phone Number",
-  "already_have_account":"Already have an account ?"
+  "already_have_account":"Already have an account ?",
+  "send_code": "Send Code",
+  "description_forget_pass": "Don’t worry! It happens. Please enter the email associated with your account.",
+  "remember_pass": "Remember Password",
+  "reset_pass": "Reset Password",
+  "enter_new_pass": "Enter New Password",
+  "repeat_new_pass": "Repeat New Password",
+  "description_reset_pass": "Please type something you’ll remember",
+  "back_to_login": "Back to Login",
+  "pass_changed": "Password Changed",
+  "description_pass_changed": "Your Password has been changed successfully"
 }

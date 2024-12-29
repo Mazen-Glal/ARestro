@@ -30,7 +30,7 @@ class DefaultButton extends StatelessWidget {
             side: BorderSide(
               width: 0.2,
             ),
-            borderRadius: BorderRadius.circular(2)
+            borderRadius: BorderRadius.circular(3)
           ),
         ),
       ),
