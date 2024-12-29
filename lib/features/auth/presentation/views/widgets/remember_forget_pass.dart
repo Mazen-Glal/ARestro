@@ -1,7 +1,9 @@
 import 'package:arestro/core/utils/customs/colors.dart';
 import 'package:arestro/core/utils/customs/styles.dart';
+import 'package:arestro/features/auth/presentation/views/forget_password_view.dart';
 import 'package:arestro/generated/l10n.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 class RememberAndForgetPass extends StatefulWidget {
   const RememberAndForgetPass({super.key});
 
@@ -33,7 +35,9 @@ class _RememberAndForgetPassState extends State<RememberAndForgetPass> {
         ),
         Spacer(),
         TextButton(
-            onPressed: () {},
+            onPressed: () {
+              GoRouter.of(context).push(ForgetPasswordView.rn);
+            },
             child: Text(
               S.of(context).forget_pass,
               style: Styles.head14w500

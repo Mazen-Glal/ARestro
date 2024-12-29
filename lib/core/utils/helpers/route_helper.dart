@@ -1,4 +1,6 @@
 import 'package:arestro/features/auth/presentation/views/auth_view.dart';
+import 'package:arestro/features/auth/presentation/views/forget_password_view.dart';
+import 'package:arestro/features/auth/presentation/views/forget_password_view.dart';
 import 'package:arestro/features/auth/presentation/views/login_view.dart';
 import 'package:arestro/features/auth/presentation/views/register_view.dart';
 import 'package:go_router/go_router.dart';
@@ -18,6 +20,10 @@ class RouteHelper {
       GoRoute(
         path: RegisterView.rn,
         builder: (context, state) => const RegisterView(),
+      ),
+      GoRoute(
+        path: ForgetPasswordView.rn,
+        builder: (context, state) => const ForgetPasswordView(),
       ),
     ],
   );

@@ -22,13 +22,20 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "already_have_account":
+            MessageLookupByLibrary.simpleMessage("هل لديك حساب؟"),
         "app_name": MessageLookupByLibrary.simpleMessage("ARestro"),
+        "create_an_account": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
         "do_not_have_account":
             MessageLookupByLibrary.simpleMessage("هل لا تمتلك حساب ؟"),
         "email": MessageLookupByLibrary.simpleMessage("الايميل"),
         "email_example":
             MessageLookupByLibrary.simpleMessage("example@gmail.com"),
         "enter_pass": MessageLookupByLibrary.simpleMessage("أدخل الرقم السري"),
+        "enter_phone":
+            MessageLookupByLibrary.simpleMessage("ادخل رقم التليفون"),
+        "enter_your_username":
+            MessageLookupByLibrary.simpleMessage("ادخل اسم المستخدم"),
         "forget_pass":
             MessageLookupByLibrary.simpleMessage("هل نسيت الرقم السري؟"),
         "log_in": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
@@ -38,6 +45,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("or continue with"),
         "password": MessageLookupByLibrary.simpleMessage("الرقم السري"),
         "remember_me": MessageLookupByLibrary.simpleMessage("تذكرني"),
-        "sign_up": MessageLookupByLibrary.simpleMessage("انشاء حساب")
+        "sign_up": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
+        "signup_with_google":
+            MessageLookupByLibrary.simpleMessage("انشاء حساب بجوجل")
       };
 }

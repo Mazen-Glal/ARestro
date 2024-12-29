@@ -22,14 +22,22 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "already_have_account":
+            MessageLookupByLibrary.simpleMessage("Already have an account ?"),
         "app_name": MessageLookupByLibrary.simpleMessage("ARestro"),
+        "create_an_account":
+            MessageLookupByLibrary.simpleMessage("Create an account"),
         "do_not_have_account":
-            MessageLookupByLibrary.simpleMessage("Don`t have an account ? "),
+            MessageLookupByLibrary.simpleMessage("Don`t have an account ?"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
         "email_example":
             MessageLookupByLibrary.simpleMessage("example@gmail.com"),
         "enter_pass":
             MessageLookupByLibrary.simpleMessage("Enter Your Password"),
+        "enter_phone":
+            MessageLookupByLibrary.simpleMessage("Enter Your Phone Number"),
+        "enter_your_username":
+            MessageLookupByLibrary.simpleMessage("Enter Your Username"),
         "forget_pass": MessageLookupByLibrary.simpleMessage("Forget Password?"),
         "log_in": MessageLookupByLibrary.simpleMessage("Log In"),
         "login_with_google":
@@ -38,6 +46,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("or continue with"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "remember_me": MessageLookupByLibrary.simpleMessage("Remember Me"),
-        "sign_up": MessageLookupByLibrary.simpleMessage("Sign Up")
+        "sign_up": MessageLookupByLibrary.simpleMessage("Sign Up"),
+        "signup_with_google":
+            MessageLookupByLibrary.simpleMessage("SignUp With Google")
       };
 }

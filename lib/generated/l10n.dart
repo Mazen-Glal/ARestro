@@ -160,11 +160,61 @@ class S {
     );
   }
 
-  /// `Don't have an account ? `
+  /// `SignUp With Google`
+  String get signup_with_google {
+    return Intl.message(
+      'SignUp With Google',
+      name: 'signup_with_google',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don't have an account ?`
   String get do_not_have_account {
     return Intl.message(
-      'Don`t have an account ? ',
+      'Don`t have an account ?',
       name: 'do_not_have_account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create an account`
+  String get create_an_account {
+    return Intl.message(
+      'Create an account',
+      name: 'create_an_account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter Your Username`
+  String get enter_your_username {
+    return Intl.message(
+      'Enter Your Username',
+      name: 'enter_your_username',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter Your Phone Number`
+  String get enter_phone {
+    return Intl.message(
+      'Enter Your Phone Number',
+      name: 'enter_phone',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Already have an account ?`
+  String get already_have_account {
+    return Intl.message(
+      'Already have an account ?',
+      name: 'already_have_account',
       desc: '',
       args: [],
     );

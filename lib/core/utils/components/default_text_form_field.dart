@@ -45,7 +45,7 @@ class _DefaultTextFormFieldState extends State<DefaultTextFormField> {
       // controller: ,
       decoration: InputDecoration(
         contentPadding: EdgeInsets.symmetric(horizontal: 13),
-        hintStyle: Styles.head16w400.copyWith(color: AppColors.halfBlack,decoration: TextDecoration.none),
+        hintStyle: Styles.head14w500.copyWith(color: AppColors.halfBlack,decoration: TextDecoration.none),
         labelStyle: Styles.head16w400.copyWith(color: AppColors.halfBlack,decoration: TextDecoration.none),
         hintText: widget.hintText,
         labelText: widget.labelText,
