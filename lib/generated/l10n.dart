@@ -79,6 +79,96 @@ class S {
       args: [],
     );
   }
+
+  /// `Email`
+  String get email {
+    return Intl.message(
+      'Email',
+      name: 'email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message(
+      'Password',
+      name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `example@gmail.com`
+  String get email_example {
+    return Intl.message(
+      'example@gmail.com',
+      name: 'email_example',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter Your Password`
+  String get enter_pass {
+    return Intl.message(
+      'Enter Your Password',
+      name: 'enter_pass',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Remember Me`
+  String get remember_me {
+    return Intl.message(
+      'Remember Me',
+      name: 'remember_me',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forget Password?`
+  String get forget_pass {
+    return Intl.message(
+      'Forget Password?',
+      name: 'forget_pass',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `or continue with`
+  String get or_continue_with {
+    return Intl.message(
+      'or continue with',
+      name: 'or_continue_with',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login With Google`
+  String get login_with_google {
+    return Intl.message(
+      'Login With Google',
+      name: 'login_with_google',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don't have an account ? `
+  String get do_not_have_account {
+    return Intl.message(
+      'Don`t have an account ? ',
+      name: 'do_not_have_account',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

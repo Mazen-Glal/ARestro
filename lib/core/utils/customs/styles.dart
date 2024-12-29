@@ -20,6 +20,11 @@ abstract class Styles{
     fontFamily: FontsFamily.manrope,
     fontWeight: FontWeight.w400,
   );
+  static  TextStyle head14w500 = TextStyle(
+      fontWeight: FontWeight.w500,
+      fontSize: 14,
+      fontFamily: FontsFamily.poppins,
+  );
 
 
 

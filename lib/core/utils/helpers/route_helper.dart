@@ -13,7 +13,7 @@ class RouteHelper {
       ),
       GoRoute(
         path: LoginView.rn,
-        builder: (context, state) => const LoginView(),
+        builder: (context, state) =>  LoginView(),
       ),
       GoRoute(
         path: RegisterView.rn,

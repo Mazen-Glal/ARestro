@@ -1,5 +1,6 @@
 import 'package:arestro/core/utils/customs/styles.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class DefaultButton extends StatelessWidget {
   const DefaultButton({
@@ -7,12 +8,14 @@ class DefaultButton extends StatelessWidget {
     required this.onPressed,
     required this.backgroundColor,
     required this.text,
-    this.textColor,
+    this.textColor, this.textStyle, this.prefixIcon,
   });
   final void Function()? onPressed;
   final String text;
   final Color backgroundColor;
   final Color? textColor;
+  final TextStyle? textStyle;
+  final Widget? prefixIcon;
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
@@ -34,9 +37,18 @@ class DefaultButton extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(
-            text,
-            style: Styles.head16w400.copyWith(color: textColor),
+          if(prefixIcon!=null)
+            prefixIcon!,
+          Expanded(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  text,
+                  style:textStyle?? Styles.head16w400.copyWith(color: textColor),
+                ),
+              ],
+            ),
           ),
         ],
       ),

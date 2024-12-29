@@ -22,7 +22,7 @@ class AuthView extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisSize: MainAxisSize.max,
           children: [
-            TextUnderLogo(text: 'ARestro'),
+            TextUnderLogo(text: S.of(context).app_name),
             SizedBox(
               height:MediaQuery.of(context).size.height/5,
             ),

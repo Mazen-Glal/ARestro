@@ -91,6 +91,7 @@ class _DefaultTextFormFieldState extends State<DefaultTextFormField> {
           },
         ) : null,
       ),
+      cursorColor: AppColors.green,
       onTap: widget.onTap,
       onChanged: widget.onChanged,
       onFieldSubmitted: widget.onFieldSubmitted,
