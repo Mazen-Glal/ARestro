@@ -5,5 +5,6 @@ abstract class Assets{
   static const String stampLight = 'assets/logo/Stamp_Light.svg';
   static const String stampDark = 'assets/logo/Stamp_Dark.svg';
   static const String googleLogo = 'assets/auth/google_logo.svg';
+  static const String googleLogo2 = 'assets/auth/google2_logo.png';
 
 }

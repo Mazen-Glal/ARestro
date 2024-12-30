@@ -1,4 +1,5 @@
 import 'package:arestro/core/utils/components/default_button.dart';
+import 'package:arestro/core/utils/customs/assets.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
 import 'package:arestro/core/utils/customs/styles.dart';
 import 'package:arestro/features/auth/presentation/views/register_view.dart';
@@ -58,7 +59,14 @@ class LoginViewBody extends StatelessWidget {
                 textStyle: Styles.head14w500.copyWith(
                   color: AppColors.halfBlack,
                 ),
-                prefixIcon:Icon(FontAwesomeIcons.google,color:AppColors.green,)
+                  prefixIcon: Image.asset(
+                    Assets.googleLogo2,
+                    width: 25,
+                    height: 25,
+                    alignment: Alignment.center,
+                    fit:BoxFit.cover,
+                  ),
+                  // prefixIcon:Icon(FontAwesomeIcons.google,color:AppColors.green,)
                 // prefixIcon: SvgPicture.asset(
                 //   Assets.googleLogo,
                 //   width: 30,
