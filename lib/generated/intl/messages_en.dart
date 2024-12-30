@@ -26,6 +26,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Already have an account ?"),
         "app_name": MessageLookupByLibrary.simpleMessage("ARestro"),
         "back_to_login": MessageLookupByLibrary.simpleMessage("Back to Login"),
+        "best_offers": MessageLookupByLibrary.simpleMessage("Best Offers"),
+        "buy_now": MessageLookupByLibrary.simpleMessage("Buy Now"),
+        "cart": MessageLookupByLibrary.simpleMessage("Cart"),
         "create_an_account":
             MessageLookupByLibrary.simpleMessage("Create an account"),
         "description_forget_pass": MessageLookupByLibrary.simpleMessage(
@@ -48,6 +51,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Enter Your Phone Number"),
         "enter_your_username":
             MessageLookupByLibrary.simpleMessage("Enter Your Username"),
+        "find_restaurant_nearby":
+            MessageLookupByLibrary.simpleMessage("Find Restaurant Nearby"),
+        "food": MessageLookupByLibrary.simpleMessage("Food"),
         "forget_pass": MessageLookupByLibrary.simpleMessage("Forget Password?"),
         "forget_password":
             MessageLookupByLibrary.simpleMessage("Forget Password"),
@@ -59,15 +65,29 @@ class MessageLookup extends MessageLookupByLibrary {
         "pass_changed":
             MessageLookupByLibrary.simpleMessage("Password Changed"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "popular_restaurants":
+            MessageLookupByLibrary.simpleMessage("Popular Restaurants"),
         "remember_me": MessageLookupByLibrary.simpleMessage("Remember Me"),
         "remember_pass":
             MessageLookupByLibrary.simpleMessage("Remember Password"),
         "repeat_new_pass":
             MessageLookupByLibrary.simpleMessage("Repeat New Password"),
         "reset_pass": MessageLookupByLibrary.simpleMessage("Reset Password"),
+        "restaurants": MessageLookupByLibrary.simpleMessage("Restaurants"),
+        "restaurants_nearby":
+            MessageLookupByLibrary.simpleMessage("Restaurants Nearby"),
+        "search": MessageLookupByLibrary.simpleMessage("Search"),
+        "search_for_food_restaurants": MessageLookupByLibrary.simpleMessage(
+            "Search for food, restaurants..."),
+        "see_all": MessageLookupByLibrary.simpleMessage("See All"),
         "send_code": MessageLookupByLibrary.simpleMessage("Send Code"),
         "sign_up": MessageLookupByLibrary.simpleMessage("Sign Up"),
         "signup_with_google":
-            MessageLookupByLibrary.simpleMessage("SignUp With Google")
+            MessageLookupByLibrary.simpleMessage("SignUp With Google"),
+        "special_order_for_march":
+            MessageLookupByLibrary.simpleMessage("Special Offer for March"),
+        "we_are_here_with_the_west_wurgers_in_town":
+            MessageLookupByLibrary.simpleMessage(
+                "We are here with the Best Burgers in town.")
       };
 }

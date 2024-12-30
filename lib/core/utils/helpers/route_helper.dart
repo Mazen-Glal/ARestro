@@ -7,6 +7,7 @@ import 'package:arestro/features/auth/presentation/views/pass_change_view.dart';
 import 'package:arestro/features/auth/presentation/views/register_view.dart';
 import 'package:arestro/features/auth/presentation/views/reset_password_view.dart';
 import 'package:arestro/features/auth/presentation/views/reset_password_view.dart';
+import 'package:arestro/features/home/representation/views/home_view.dart';
 import 'package:go_router/go_router.dart';
 class RouteHelper {
   static late String path;
@@ -36,6 +37,10 @@ class RouteHelper {
       GoRoute(
         path: PasswordChangeView.rn,
         builder: (context, state) => const PasswordChangeView(),
+      ),
+      GoRoute(
+        path: HomeView.rn,
+        builder: (context, state) => const HomeView(),
       ),
     ],
   );

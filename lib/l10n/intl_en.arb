@@ -27,5 +27,18 @@
   "description_reset_pass": "Please type something you’ll remember",
   "back_to_login": "Back to Login",
   "pass_changed": "Password Changed",
-  "description_pass_changed": "Your Password has been changed successfully"
+  "description_pass_changed": "Your Password has been changed successfully",
+  "special_order_for_march": "Special Offer for March",
+  "buy_now": "Buy Now",
+  "we_are_here_with_the_west_wurgers_in_town": "We are here with the Best Burgers in town.",
+  "search_for_food_restaurants": "Search for food, restaurants...",
+  "best_offers": "Best Offers",
+  "see_all": "See All",
+  "food":"Food",
+  "restaurants_nearby": "Restaurants Nearby",
+  "restaurants": "Restaurants",
+  "find_restaurant_nearby": "Find Restaurant Nearby",
+  "popular_restaurants": "Popular Restaurants",
+  "search": "Search",
+  "cart": "Cart"
 }

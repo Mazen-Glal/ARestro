@@ -339,6 +339,136 @@ class S {
       args: [],
     );
   }
+
+  /// `Special Offer for March`
+  String get special_order_for_march {
+    return Intl.message(
+      'Special Offer for March',
+      name: 'special_order_for_march',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Buy Now`
+  String get buy_now {
+    return Intl.message(
+      'Buy Now',
+      name: 'buy_now',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `We are here with the Best Burgers in town.`
+  String get we_are_here_with_the_west_wurgers_in_town {
+    return Intl.message(
+      'We are here with the Best Burgers in town.',
+      name: 'we_are_here_with_the_west_wurgers_in_town',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Search for food, restaurants...`
+  String get search_for_food_restaurants {
+    return Intl.message(
+      'Search for food, restaurants...',
+      name: 'search_for_food_restaurants',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Best Offers`
+  String get best_offers {
+    return Intl.message(
+      'Best Offers',
+      name: 'best_offers',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `See All`
+  String get see_all {
+    return Intl.message(
+      'See All',
+      name: 'see_all',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Food`
+  String get food {
+    return Intl.message(
+      'Food',
+      name: 'food',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Restaurants Nearby`
+  String get restaurants_nearby {
+    return Intl.message(
+      'Restaurants Nearby',
+      name: 'restaurants_nearby',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Restaurants`
+  String get restaurants {
+    return Intl.message(
+      'Restaurants',
+      name: 'restaurants',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Find Restaurant Nearby`
+  String get find_restaurant_nearby {
+    return Intl.message(
+      'Find Restaurant Nearby',
+      name: 'find_restaurant_nearby',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Popular Restaurants`
+  String get popular_restaurants {
+    return Intl.message(
+      'Popular Restaurants',
+      name: 'popular_restaurants',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Search`
+  String get search {
+    return Intl.message(
+      'Search',
+      name: 'search',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cart`
+  String get cart {
+    return Intl.message(
+      'Cart',
+      name: 'cart',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

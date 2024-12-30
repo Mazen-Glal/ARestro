@@ -83,7 +83,7 @@ flutter:
   assets:
     - assets/auth/
     - assets/logo/
-#    - assets/home/
+    - assets/home/
 
 flutter_native_splash:
   android: true

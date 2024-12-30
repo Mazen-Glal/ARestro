@@ -27,5 +27,18 @@
   "description_reset_pass": "ارجوك ادخل رقم تستطيع تذكره",
   "back_to_login": "العودة الي صفحة تسجيل الدخول",
   "pass_changed": "تم تغير الرقم السري",
-  "description_pass_changed": "تم تغير الرقم السري بنجاح"
+  "description_pass_changed": "تم تغير الرقم السري بنجاح",
+  "special_order_for_march": "عرض خاص لشهر مارس",
+  "buy_now": "اشترِ الآن",
+  "we_are_here_with_the_west_wurgers_in_town": "نحن هنا مع أفضل البرغر في المدينة.",
+  "search_for_food_restaurants": "ابحث عن الطعام والمطاعم...",
+  "best_offers": "أفضل العروض",
+  "see_all": "عرض الكل",
+  "food": "طعام",
+  "restaurants_nearby": "مطاعم قريبة",
+  "restaurants": "مطاعم",
+  "find_restaurant_nearby": "اعثر على مطعم قريب",
+  "popular_restaurants": "مطاعم شهيرة",
+  "search": "بحث",
+  "cart": "عربة التسوق"
 }

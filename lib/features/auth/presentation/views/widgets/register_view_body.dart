@@ -1,6 +1,7 @@
 import 'package:arestro/core/utils/customs/assets.dart';
 import 'package:arestro/features/auth/presentation/views/login_view.dart';
 import 'package:arestro/features/auth/presentation/views/widgets/register_text_fields.dart';
+import 'package:arestro/features/home/representation/views/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:arestro/core/utils/components/default_button.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
@@ -46,7 +47,9 @@ class RegisterViewBody extends StatelessWidget {
                 height: 10,
               ),
               DefaultButton(
-                onPressed: () {},
+                onPressed: () {
+                  GoRouter.of(context).go(HomeView.rn);
+                },
                 backgroundColor: AppColors.green,
                 text: S.of(context).sign_up,
               ),
@@ -58,7 +61,9 @@ class RegisterViewBody extends StatelessWidget {
                 height: 15,
               ),
               DefaultButton(
-                onPressed: () {},
+                onPressed: () {
+
+                },
                 backgroundColor: Colors.transparent,
                 text: S.of(context).signup_with_google,
                 textColor: AppColors.halfBlack,

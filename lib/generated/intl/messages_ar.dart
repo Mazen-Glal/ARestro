@@ -27,6 +27,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "app_name": MessageLookupByLibrary.simpleMessage("ARestro"),
         "back_to_login": MessageLookupByLibrary.simpleMessage(
             "العودة الي صفحة تسجيل الدخول"),
+        "best_offers": MessageLookupByLibrary.simpleMessage("أفضل العروض"),
+        "buy_now": MessageLookupByLibrary.simpleMessage("اشترِ الآن"),
+        "cart": MessageLookupByLibrary.simpleMessage("عربة التسوق"),
         "create_an_account": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
         "description_forget_pass": MessageLookupByLibrary.simpleMessage(
             "لا تقلق هذا يحدث ,ادخل الايميل الخاص بك فقط"),
@@ -48,6 +51,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("ادخل رقم التليفون"),
         "enter_your_username":
             MessageLookupByLibrary.simpleMessage("ادخل اسم المستخدم"),
+        "find_restaurant_nearby":
+            MessageLookupByLibrary.simpleMessage("اعثر على مطعم قريب"),
+        "food": MessageLookupByLibrary.simpleMessage("طعام"),
         "forget_pass":
             MessageLookupByLibrary.simpleMessage("هل نسيت الرقم السري؟"),
         "forget_password":
@@ -60,15 +66,29 @@ class MessageLookup extends MessageLookupByLibrary {
         "pass_changed":
             MessageLookupByLibrary.simpleMessage("تم تغير الرقم السري"),
         "password": MessageLookupByLibrary.simpleMessage("الرقم السري"),
+        "popular_restaurants":
+            MessageLookupByLibrary.simpleMessage("مطاعم شهيرة"),
         "remember_me": MessageLookupByLibrary.simpleMessage("تذكرني"),
         "remember_pass":
             MessageLookupByLibrary.simpleMessage("تذكر الرقم السري"),
         "repeat_new_pass":
             MessageLookupByLibrary.simpleMessage("اعادة الرقم السري"),
         "reset_pass": MessageLookupByLibrary.simpleMessage("أعادة الرقم السري"),
+        "restaurants": MessageLookupByLibrary.simpleMessage("مطاعم"),
+        "restaurants_nearby":
+            MessageLookupByLibrary.simpleMessage("مطاعم قريبة"),
+        "search": MessageLookupByLibrary.simpleMessage("بحث"),
+        "search_for_food_restaurants":
+            MessageLookupByLibrary.simpleMessage("ابحث عن الطعام والمطاعم..."),
+        "see_all": MessageLookupByLibrary.simpleMessage("عرض الكل"),
         "send_code": MessageLookupByLibrary.simpleMessage("ارسال الكود"),
         "sign_up": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
         "signup_with_google":
-            MessageLookupByLibrary.simpleMessage("انشاء حساب بجوجل")
+            MessageLookupByLibrary.simpleMessage("انشاء حساب بجوجل"),
+        "special_order_for_march":
+            MessageLookupByLibrary.simpleMessage("عرض خاص لشهر مارس"),
+        "we_are_here_with_the_west_wurgers_in_town":
+            MessageLookupByLibrary.simpleMessage(
+                "نحن هنا مع أفضل البرغر في المدينة.")
       };
 }

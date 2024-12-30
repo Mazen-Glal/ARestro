@@ -8,6 +8,7 @@ import 'package:arestro/features/auth/presentation/views/widgets/or_continue_wit
 import 'package:arestro/features/auth/presentation/views/widgets/remember_forget_pass.dart';
 import 'package:arestro/features/auth/presentation/views/widgets/text_and_text_button.dart';
 import 'package:arestro/features/auth/presentation/views/widgets/text_under_logo.dart';
+import 'package:arestro/features/home/representation/views/home_view.dart';
 import 'package:arestro/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -40,7 +41,9 @@ class LoginViewBody extends StatelessWidget {
                 height: 10,
               ),
               DefaultButton(
-                onPressed: () {},
+                onPressed: () {
+                  GoRouter.of(context).go(HomeView.rn);
+                },
                 backgroundColor: AppColors.green,
                 text: S.of(context).log_in,
               ),

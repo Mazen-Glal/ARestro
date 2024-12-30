@@ -25,6 +25,16 @@ abstract class Styles{
       fontSize: 14,
       fontFamily: FontsFamily.poppins,
   );
+  static  TextStyle head18w800 = TextStyle(
+      fontWeight: FontWeight.w800,
+      fontSize: 18,
+      fontFamily: FontsFamily.manrope,
+  );
+  static  TextStyle head10w500 = TextStyle(
+      fontWeight: FontWeight.w500,
+      fontSize: 10,
+      fontFamily: FontsFamily.manrope,
+  );
 
 
 
