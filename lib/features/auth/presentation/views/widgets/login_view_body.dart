@@ -1,5 +1,4 @@
 import 'package:arestro/core/utils/components/default_button.dart';
-import 'package:arestro/core/utils/customs/assets.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
 import 'package:arestro/core/utils/customs/styles.dart';
 import 'package:arestro/features/auth/presentation/views/register_view.dart';
@@ -10,7 +9,7 @@ import 'package:arestro/features/auth/presentation/views/widgets/text_and_text_b
 import 'package:arestro/features/auth/presentation/views/widgets/text_under_logo.dart';
 import 'package:arestro/generated/l10n.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
 class LoginViewBody extends StatelessWidget {
    LoginViewBody({super.key});
@@ -59,14 +58,14 @@ class LoginViewBody extends StatelessWidget {
                 textStyle: Styles.head14w500.copyWith(
                   color: AppColors.halfBlack,
                 ),
-                // prefixIcon:Icon(FontAwesomeIcons.google,color:AppColors.green,)
-                prefixIcon: SvgPicture.asset(
-                  Assets.googleLogo,
-                  width: 30,
-                  height: 30,
-                  alignment: Alignment.center,
-                  fit:BoxFit.cover,
-                ),
+                prefixIcon:Icon(FontAwesomeIcons.google,color:AppColors.green,)
+                // prefixIcon: SvgPicture.asset(
+                //   Assets.googleLogo,
+                //   width: 30,
+                //   height: 30,
+                //   alignment: Alignment.center,
+                //   fit:BoxFit.cover,
+                // ),
               ),
               TextAndTextButton(
                 text: S.of(context).do_not_have_account,

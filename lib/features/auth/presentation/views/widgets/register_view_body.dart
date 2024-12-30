@@ -2,14 +2,13 @@ import 'package:arestro/features/auth/presentation/views/login_view.dart';
 import 'package:arestro/features/auth/presentation/views/widgets/register_text_fields.dart';
 import'package:flutter/material.dart';
 import 'package:arestro/core/utils/components/default_button.dart';
-import 'package:arestro/core/utils/customs/assets.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
 import 'package:arestro/core/utils/customs/styles.dart';
 import 'package:arestro/features/auth/presentation/views/widgets/or_continue_with.dart';
 import 'package:arestro/features/auth/presentation/views/widgets/text_and_text_button.dart';
 import 'package:arestro/features/auth/presentation/views/widgets/text_under_logo.dart';
 import 'package:arestro/generated/l10n.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
 class RegisterViewBody extends StatelessWidget {
   RegisterViewBody({super.key});
@@ -64,14 +63,14 @@ class RegisterViewBody extends StatelessWidget {
                 textStyle: Styles.head14w500.copyWith(
                   color: AppColors.halfBlack,
                 ),
-                // prefixIcon:Icon(FontAwesomeIcons.google,color:AppColors.green,)
-                prefixIcon: SvgPicture.asset(
-                  Assets.googleLogo,
-                  width: 30,
-                  height: 30,
-                  alignment: Alignment.center,
-                  fit:BoxFit.cover,
-                ),
+                prefixIcon:Icon(FontAwesomeIcons.google,color:AppColors.green,)
+                // prefixIcon: SvgPicture.asset(
+                //   Assets.googleLogo,
+                //   width: 30,
+                //   height: 30,
+                //   alignment: Alignment.center,
+                //   fit:BoxFit.cover,
+                // ),
               ),
               TextAndTextButton(
                 text: S.of(context).already_have_account,

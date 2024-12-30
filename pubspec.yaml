@@ -81,7 +81,7 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-    - assets/
+    - assets/auth/
     - assets/logo/
 #    - assets/home/
 

@@ -4,5 +4,6 @@ abstract class Assets{
   static const String logoWithoutName = 'assets/logo/logo_without_name.svg';
   static const String stampLight = 'assets/logo/Stamp_Light.svg';
   static const String stampDark = 'assets/logo/Stamp_Dark.svg';
-  static const String googleLogo = 'assets/google_logo.svg';
+  static const String googleLogo = 'assets/auth/google_logo.svg';
+
 }

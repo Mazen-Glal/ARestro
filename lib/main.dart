@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'core/utils/helpers/route_helper.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 void main() {
-  ThemeData selectedTheme = ThemeHelper.isDarkMode? ThemeHelper.darkTheme :ThemeHelper.lightTheme;
+  ThemeData selectedTheme = ThemeHelper.isDarkMode ? ThemeHelper.darkTheme :ThemeHelper.lightTheme;
   runApp(MyApp(selectedTheme: selectedTheme,));
 }
 
