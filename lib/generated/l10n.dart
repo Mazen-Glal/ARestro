@@ -390,10 +390,10 @@ class S {
     );
   }
 
-  /// `See All`
+  /// `See all  >`
   String get see_all {
     return Intl.message(
-      'See All',
+      'See all  >',
       name: 'see_all',
       desc: '',
       args: [],

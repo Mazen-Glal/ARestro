@@ -52,7 +52,7 @@ class LoginTextFields extends StatelessWidget {
               hintText: S.of(context).enter_pass,
               keyboardType: TextInputType.visiblePassword,
               obscureText: true,
-              showSuffix: true,
+              showObscureSuffix: true,
             )
           ],
         ),

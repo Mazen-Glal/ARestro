@@ -13,8 +13,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class HomeViewBody extends StatelessWidget {
-  const HomeViewBody({super.key});
+  HomeViewBody({super.key});
 
+  final TextEditingController searchController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,10 +28,17 @@ class HomeViewBody extends StatelessWidget {
             spacing: 15,
             children: [
               OfferForMonth(),
-              // HomeSearchItem(),
-              // TitleOfList(),
-              // ListOfFoods(),
-              // ListOfRestaurants()
+              HomeSearchItem(searchController: searchController),
+              TitleOfList(
+                title: S.of(context).best_offers,
+                onPressed: () {},
+              ),
+              ListOfFoods(),
+              TitleOfList(
+                title: S.of(context).restaurants_nearby,
+                onPressed: () {},
+              ),
+              ListOfRestaurants()
             ],
           ),
         ),

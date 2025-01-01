@@ -6,6 +6,6 @@ class HomeView extends StatelessWidget {
   static const String rn  = "/HomeView";
   @override
   Widget build(BuildContext context) {
-    return const HomeViewBody();
+    return  HomeViewBody();
   }
 }

@@ -79,7 +79,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "search": MessageLookupByLibrary.simpleMessage("Search"),
         "search_for_food_restaurants": MessageLookupByLibrary.simpleMessage(
             "Search for food, restaurants..."),
-        "see_all": MessageLookupByLibrary.simpleMessage("See All"),
+        "see_all": MessageLookupByLibrary.simpleMessage("See all  >"),
         "send_code": MessageLookupByLibrary.simpleMessage("Send Code"),
         "sign_up": MessageLookupByLibrary.simpleMessage("Sign Up"),
         "signup_with_google":

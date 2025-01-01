@@ -39,7 +39,7 @@ class RegisterTextFields extends StatelessWidget {
           controller: passwordController,
           hintText: S.of(context).enter_pass,
           keyboardType: TextInputType.visiblePassword,
-          showSuffix: true,
+          showObscureSuffix: true,
           obscureText: true,
         ),
       ],

@@ -14,7 +14,10 @@ class DefaultTextFormField extends StatefulWidget {
       this.obscureText,
       this.onTap,
       this.onChanged,
-      this.onFieldSubmitted, this.showSuffix});
+      this.onFieldSubmitted,
+        this.showObscureSuffix,
+        this.prefixIcon, this.readOnly, this.enabled, this.suffixIcon
+      });
 
   final void Function()? onTap;
   final void Function(String)? onChanged;
@@ -24,7 +27,11 @@ class DefaultTextFormField extends StatefulWidget {
   final String? labelText;
   final TextInputType? keyboardType;
   bool? obscureText =false;
-  final bool? showSuffix;
+  final bool? showObscureSuffix;
+  final IconData? prefixIcon;
+  final IconData? suffixIcon;
+  final bool? readOnly;
+  final bool? enabled;
   @override
   State<DefaultTextFormField> createState() => _DefaultTextFormFieldState();
 }
@@ -33,6 +40,8 @@ class _DefaultTextFormFieldState extends State<DefaultTextFormField> {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      enabled: widget.enabled,
+      readOnly: widget.readOnly??false,
       obscureText: widget.obscureText ?? false,
       keyboardType: widget.keyboardType ?? TextInputType.text,
       validator: (value) {
@@ -44,6 +53,7 @@ class _DefaultTextFormFieldState extends State<DefaultTextFormField> {
       },
       // controller: ,
       decoration: InputDecoration(
+        prefixIcon:widget.prefixIcon != null ? Icon(widget.prefixIcon,size: 15,):null,
         contentPadding: EdgeInsets.symmetric(horizontal: 13),
         hintStyle: Styles.head14w500.copyWith(color: AppColors.halfBlack,decoration: TextDecoration.none),
         labelStyle: Styles.head16w400.copyWith(color: AppColors.halfBlack,decoration: TextDecoration.none),
@@ -77,7 +87,7 @@ class _DefaultTextFormFieldState extends State<DefaultTextFormField> {
             width: 0.5,
           ),
         ),
-        suffixIcon:widget.showSuffix == true? IconButton(
+        suffixIcon:widget.suffixIcon != null ? Icon(widget.suffixIcon,size: 15,): widget.showObscureSuffix == true? IconButton(
           icon: Icon(
             widget.obscureText == true ? FontAwesomeIcons.eye: FontAwesomeIcons.eyeSlash,
           ),
