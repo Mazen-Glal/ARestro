@@ -58,6 +58,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("هل نسيت الرقم السري؟"),
         "forget_password":
             MessageLookupByLibrary.simpleMessage("هل نسيت الرقم السري"),
+        "km_form_your_location":
+            MessageLookupByLibrary.simpleMessage("كليو متر من موقغك"),
         "log_in": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "login_with_google":
             MessageLookupByLibrary.simpleMessage("تسجيل الدخول بجوجل"),

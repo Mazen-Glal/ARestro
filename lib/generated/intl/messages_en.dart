@@ -57,6 +57,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "forget_pass": MessageLookupByLibrary.simpleMessage("Forget Password?"),
         "forget_password":
             MessageLookupByLibrary.simpleMessage("Forget Password"),
+        "km_form_your_location":
+            MessageLookupByLibrary.simpleMessage("km form your location"),
         "log_in": MessageLookupByLibrary.simpleMessage("Log In"),
         "login_with_google":
             MessageLookupByLibrary.simpleMessage("Login With Google"),

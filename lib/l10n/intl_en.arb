@@ -40,5 +40,6 @@
   "find_restaurant_nearby": "Find Restaurant Nearby",
   "popular_restaurants": "Popular Restaurants",
   "search": "Search",
-  "cart": "Cart"
+  "cart": "Cart",
+  "km_form_your_location": "km form your location"
 }

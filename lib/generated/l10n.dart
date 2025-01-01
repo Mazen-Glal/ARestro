@@ -469,6 +469,16 @@ class S {
       args: [],
     );
   }
+
+  /// `km form your location`
+  String get km_form_your_location {
+    return Intl.message(
+      'km form your location',
+      name: 'km_form_your_location',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
