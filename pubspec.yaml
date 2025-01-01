@@ -53,6 +53,7 @@ dependencies:
   flutter_svg: ^2.0.16
   animations: ^2.0.11
   flutter_rating_bar: ^4.0.1
+  avatar_glow: ^3.0.1
 
 dev_dependencies:
   flutter_test:
@@ -85,6 +86,7 @@ flutter:
     - assets/auth/
     - assets/logo/
     - assets/home/
+    - assets/profile/
 
 flutter_native_splash:
   android: true

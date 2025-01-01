@@ -22,6 +22,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "address": MessageLookupByLibrary.simpleMessage("Address"),
         "already_have_account":
             MessageLookupByLibrary.simpleMessage("Already have an account ?"),
         "app_name": MessageLookupByLibrary.simpleMessage("ARestro"),
@@ -29,6 +30,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "best_offers": MessageLookupByLibrary.simpleMessage("Best Offers"),
         "buy_now": MessageLookupByLibrary.simpleMessage("Buy Now"),
         "cart": MessageLookupByLibrary.simpleMessage("Cart"),
+        "contact_info": MessageLookupByLibrary.simpleMessage("Contact Info"),
         "create_an_account":
             MessageLookupByLibrary.simpleMessage("Create an account"),
         "description_forget_pass": MessageLookupByLibrary.simpleMessage(
@@ -39,6 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Please type something you’ll remember"),
         "do_not_have_account":
             MessageLookupByLibrary.simpleMessage("Don`t have an account ?"),
+        "edit": MessageLookupByLibrary.simpleMessage("Edit"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
         "email_example":
             MessageLookupByLibrary.simpleMessage("example@gmail.com"),
@@ -62,11 +65,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "log_in": MessageLookupByLibrary.simpleMessage("Log In"),
         "login_with_google":
             MessageLookupByLibrary.simpleMessage("Login With Google"),
+        "member": MessageLookupByLibrary.simpleMessage("Member"),
+        "occupation": MessageLookupByLibrary.simpleMessage("Occupation"),
         "or_continue_with":
             MessageLookupByLibrary.simpleMessage("or continue with"),
         "pass_changed":
             MessageLookupByLibrary.simpleMessage("Password Changed"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "personal_info": MessageLookupByLibrary.simpleMessage("Personal Info"),
+        "phone_number": MessageLookupByLibrary.simpleMessage("Phone Number"),
         "popular_restaurants":
             MessageLookupByLibrary.simpleMessage("Popular Restaurants"),
         "remember_me": MessageLookupByLibrary.simpleMessage("Remember Me"),
@@ -90,6 +97,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Special Offer for March"),
         "we_are_here_with_the_west_wurgers_in_town":
             MessageLookupByLibrary.simpleMessage(
-                "We are here with the Best Burgers in town.")
+                "We are here with the Best Burgers in town."),
+        "your_name": MessageLookupByLibrary.simpleMessage("Your Name")
       };
 }

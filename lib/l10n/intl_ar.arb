@@ -41,5 +41,14 @@
   "popular_restaurants": "مطاعم شهيرة",
   "search": "بحث",
   "cart": "عربة التسوق",
-  "km_form_your_location": "كليو متر من موقغك"
+  "km_form_your_location": "كليو متر من موقغك",
+  "personal_info": "معلومات شخصية",
+  "your_name": "الاسم",
+  "address": "العنوان",
+  "member": "عضو",
+  "contact_info": "معلومات التواصل",
+  "phone_number": "رقم التليفون",
+  "edit": "تعديل",
+  "occupation": "مستواك"
+
 }

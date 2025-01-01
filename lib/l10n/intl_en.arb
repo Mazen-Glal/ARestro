@@ -41,5 +41,13 @@
   "popular_restaurants": "Popular Restaurants",
   "search": "Search",
   "cart": "Cart",
-  "km_form_your_location": "km form your location"
+  "km_form_your_location": "km form your location",
+  "personal_info": "Personal Info",
+  "your_name": "Your Name",
+  "address": "Address",
+  "member": "Member",
+  "contact_info": "Contact Info",
+  "phone_number": "Phone Number",
+  "edit": "Edit",
+  "occupation": "Occupation"
 }

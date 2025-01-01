@@ -10,5 +10,6 @@ abstract class Assets{
   static const String food1 = 'assets/home/food1.png';
   static const String food2 = 'assets/home/food2.png';
   static const String restaurant1 = 'assets/home/restaurant1.png';
+  static const String person = 'assets/profile/person.png';
 }
 

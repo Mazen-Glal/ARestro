@@ -22,6 +22,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "address": MessageLookupByLibrary.simpleMessage("العنوان"),
         "already_have_account":
             MessageLookupByLibrary.simpleMessage("هل لديك حساب؟"),
         "app_name": MessageLookupByLibrary.simpleMessage("ARestro"),
@@ -30,6 +31,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "best_offers": MessageLookupByLibrary.simpleMessage("أفضل العروض"),
         "buy_now": MessageLookupByLibrary.simpleMessage("اشترِ الآن"),
         "cart": MessageLookupByLibrary.simpleMessage("عربة التسوق"),
+        "contact_info": MessageLookupByLibrary.simpleMessage("معلومات التواصل"),
         "create_an_account": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
         "description_forget_pass": MessageLookupByLibrary.simpleMessage(
             "لا تقلق هذا يحدث ,ادخل الايميل الخاص بك فقط"),
@@ -39,6 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("ارجوك ادخل رقم تستطيع تذكره"),
         "do_not_have_account":
             MessageLookupByLibrary.simpleMessage("هل لا تمتلك حساب ؟"),
+        "edit": MessageLookupByLibrary.simpleMessage("تعديل"),
         "email": MessageLookupByLibrary.simpleMessage("الايميل"),
         "email_example":
             MessageLookupByLibrary.simpleMessage("example@gmail.com"),
@@ -63,11 +66,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "log_in": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "login_with_google":
             MessageLookupByLibrary.simpleMessage("تسجيل الدخول بجوجل"),
+        "member": MessageLookupByLibrary.simpleMessage("عضو"),
+        "occupation": MessageLookupByLibrary.simpleMessage("مستواك"),
         "or_continue_with":
             MessageLookupByLibrary.simpleMessage("or continue with"),
         "pass_changed":
             MessageLookupByLibrary.simpleMessage("تم تغير الرقم السري"),
         "password": MessageLookupByLibrary.simpleMessage("الرقم السري"),
+        "personal_info": MessageLookupByLibrary.simpleMessage("معلومات شخصية"),
+        "phone_number": MessageLookupByLibrary.simpleMessage("رقم التليفون"),
         "popular_restaurants":
             MessageLookupByLibrary.simpleMessage("مطاعم شهيرة"),
         "remember_me": MessageLookupByLibrary.simpleMessage("تذكرني"),
@@ -91,6 +98,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("عرض خاص لشهر مارس"),
         "we_are_here_with_the_west_wurgers_in_town":
             MessageLookupByLibrary.simpleMessage(
-                "نحن هنا مع أفضل البرغر في المدينة.")
+                "نحن هنا مع أفضل البرغر في المدينة."),
+        "your_name": MessageLookupByLibrary.simpleMessage("الاسم")
       };
 }

@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       routerConfig:RouteHelper.getRouter,
-      title: 'Flutter Demo',
+      title: 'Arestro',
       theme: selectedTheme,
       // change language from here (locale).
       locale: const Locale("en"),

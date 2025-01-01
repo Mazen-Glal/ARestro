@@ -8,6 +8,7 @@ import 'package:arestro/features/auth/presentation/views/register_view.dart';
 import 'package:arestro/features/auth/presentation/views/reset_password_view.dart';
 import 'package:arestro/features/auth/presentation/views/reset_password_view.dart';
 import 'package:arestro/features/home/representation/views/home_view.dart';
+import 'package:arestro/features/profile/representation/views/profile_view.dart';
 import 'package:arestro/features/search/representation/views/search_view.dart';
 import 'package:go_router/go_router.dart';
 class RouteHelper {
@@ -46,6 +47,10 @@ class RouteHelper {
       GoRoute(
         path: SearchView.rn,
         builder: (context, state) => const SearchView(),
+      ),
+      GoRoute(
+        path: ProfileView.rn,
+        builder: (context, state) => const ProfileView(),
       ),
     ],
   );
