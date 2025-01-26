@@ -1,3 +1,4 @@
+import 'package:arestro/features/restaurants/representation/views/restaurant_details_view.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:arestro/core/utils/customs/assets.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
@@ -14,8 +15,8 @@ class RestaurantItemForSearch extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        // GoRouter.of(context).push(RestaurantDetails.rn);
-        print("go to rastaurant details.");
+        GoRouter.of(context).push(RestaurantDetailsView.rn);
+        // print("go to restaurant details.");
       },
       child: Card(
         elevation: 0.2,

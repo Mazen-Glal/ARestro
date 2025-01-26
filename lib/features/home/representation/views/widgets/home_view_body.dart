@@ -1,3 +1,4 @@
+import 'package:arestro/core/utils/components/default_app_bar.dart';
 import 'package:arestro/core/utils/components/default_button.dart';
 import 'package:arestro/core/utils/customs/assets.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
@@ -20,6 +21,7 @@ class HomeViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.white,
+      appBar: getDefaultAppBar(context),
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
         padding: EdgeInsets.symmetric(vertical: 10, horizontal: 25),

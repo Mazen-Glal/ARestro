@@ -74,7 +74,7 @@ class OfferForMonth extends StatelessWidget {
                 height: 30,
                 child: ElevatedButton(
                   onPressed: () {
-                    GoRouter.of(context).push(ProfileView.rn);
+                    // GoRouter.of(context).push(ProfileView.rn);
                   },
                   style: ButtonStyle(
                     padding: WidgetStatePropertyAll(

@@ -1,3 +1,4 @@
+import 'package:arestro/core/utils/components/default_app_bar.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
 import 'package:arestro/features/search/representation/views/widgets/list_of_search_results.dart';
 import 'package:arestro/features/search/representation/views/widgets/search_textField_button.dart';
@@ -9,6 +10,7 @@ class SearchViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.white,
+      appBar: getDefaultAppBar(context),
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
         padding: EdgeInsets.symmetric(horizontal: 30,vertical: 25),
