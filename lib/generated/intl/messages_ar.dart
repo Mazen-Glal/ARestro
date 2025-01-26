@@ -29,10 +29,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "back_to_login": MessageLookupByLibrary.simpleMessage(
             "العودة الي صفحة تسجيل الدخول"),
         "best_offers": MessageLookupByLibrary.simpleMessage("أفضل العروض"),
+        "bikes_and_car_parking":
+            MessageLookupByLibrary.simpleMessage("مواقف الدراجات و السيارات"),
         "buy_now": MessageLookupByLibrary.simpleMessage("اشترِ الآن"),
         "cart": MessageLookupByLibrary.simpleMessage("عربة التسوق"),
         "contact_info": MessageLookupByLibrary.simpleMessage("معلومات التواصل"),
         "create_an_account": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
+        "description": MessageLookupByLibrary.simpleMessage("الوصف"),
         "description_forget_pass": MessageLookupByLibrary.simpleMessage(
             "لا تقلق هذا يحدث ,ادخل الايميل الخاص بك فقط"),
         "description_pass_changed":
@@ -54,6 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("ادخل رقم التليفون"),
         "enter_your_username":
             MessageLookupByLibrary.simpleMessage("ادخل اسم المستخدم"),
+        "facilities": MessageLookupByLibrary.simpleMessage("مواصفات"),
         "find_restaurant_nearby":
             MessageLookupByLibrary.simpleMessage("اعثر على مطعم قريب"),
         "food": MessageLookupByLibrary.simpleMessage("طعام"),
@@ -63,6 +67,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("هل نسيت الرقم السري"),
         "km_form_your_location":
             MessageLookupByLibrary.simpleMessage("كليو متر من موقغك"),
+        "km_from_location":
+            MessageLookupByLibrary.simpleMessage("كيلو متر من موقعك"),
         "log_in": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "login_with_google":
             MessageLookupByLibrary.simpleMessage("تسجيل الدخول بجوجل"),
@@ -94,8 +100,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "sign_up": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
         "signup_with_google":
             MessageLookupByLibrary.simpleMessage("انشاء حساب بجوجل"),
+        "snack_bar": MessageLookupByLibrary.simpleMessage("Snack Bar"),
         "special_order_for_march":
             MessageLookupByLibrary.simpleMessage("عرض خاص لشهر مارس"),
+        "toilet": MessageLookupByLibrary.simpleMessage("حمام"),
+        "view_available_tables":
+            MessageLookupByLibrary.simpleMessage("اظهار الطاولات المتاحة"),
+        "view_on_google_map":
+            MessageLookupByLibrary.simpleMessage("رؤيتة علي جوجل ماب"),
+        "water_facility":
+            MessageLookupByLibrary.simpleMessage("مرفق مياه دائم"),
         "we_are_here_with_the_west_wurgers_in_town":
             MessageLookupByLibrary.simpleMessage(
                 "نحن هنا مع أفضل البرغر في المدينة."),

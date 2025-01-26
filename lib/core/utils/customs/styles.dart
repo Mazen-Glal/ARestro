@@ -75,17 +75,11 @@ abstract class Styles {
     fontFamily: FontsFamily.manrope,
     color: AppColors.black,
   );
-  static TextStyle head10w500 = TextStyle(
+  static TextStyle head12w500 = TextStyle(
     fontWeight: FontWeight.w500,
-    fontSize: 10,
+    fontSize: 12,
     fontFamily: FontsFamily.manrope,
-    color: AppColors.black,
-  );
-  static TextStyle head10w400 = TextStyle(
-    fontWeight: FontWeight.w400,
-    fontSize: 10,
-    fontFamily: FontsFamily.manrope,
-    color: AppColors.black,
+    color: Colors.grey,
   );
   static TextStyle head12w600 = TextStyle(
     fontWeight: FontWeight.w600,
@@ -96,6 +90,18 @@ abstract class Styles {
   static TextStyle head12w700 = TextStyle(
     fontWeight: FontWeight.w700,
     fontSize: 12,
+    fontFamily: FontsFamily.manrope,
+    color: AppColors.black,
+  );
+  static TextStyle head10w500 = TextStyle(
+    fontWeight: FontWeight.w500,
+    fontSize: 10,
+    fontFamily: FontsFamily.manrope,
+    color: AppColors.black,
+  );
+  static TextStyle head10w400 = TextStyle(
+    fontWeight: FontWeight.w400,
+    fontSize: 10,
     fontFamily: FontsFamily.manrope,
     color: AppColors.black,
   );

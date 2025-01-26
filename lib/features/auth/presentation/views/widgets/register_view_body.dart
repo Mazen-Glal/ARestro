@@ -79,7 +79,7 @@ class RegisterViewBody extends StatelessWidget {
                 //   fit:BoxFit.cover,
                 // ),
                 prefixIcon: Image.asset(
-                  Assets.googleLogo2,
+                  Assets.google2Logo,
                   width: 25,
                   height: 25,
                     alignment: Alignment.center,

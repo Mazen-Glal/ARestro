@@ -28,11 +28,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "app_name": MessageLookupByLibrary.simpleMessage("ARestro"),
         "back_to_login": MessageLookupByLibrary.simpleMessage("Back to Login"),
         "best_offers": MessageLookupByLibrary.simpleMessage("Best Offers"),
+        "bikes_and_car_parking":
+            MessageLookupByLibrary.simpleMessage("Bikes and Car Parking"),
         "buy_now": MessageLookupByLibrary.simpleMessage("Buy Now"),
         "cart": MessageLookupByLibrary.simpleMessage("Cart"),
         "contact_info": MessageLookupByLibrary.simpleMessage("Contact Info"),
         "create_an_account":
             MessageLookupByLibrary.simpleMessage("Create an account"),
+        "description": MessageLookupByLibrary.simpleMessage("Description"),
         "description_forget_pass": MessageLookupByLibrary.simpleMessage(
             "Don’t worry! It happens. Please enter the email associated with your account."),
         "description_pass_changed": MessageLookupByLibrary.simpleMessage(
@@ -54,6 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Enter Your Phone Number"),
         "enter_your_username":
             MessageLookupByLibrary.simpleMessage("Enter Your Username"),
+        "facilities": MessageLookupByLibrary.simpleMessage("Facilities"),
         "find_restaurant_nearby":
             MessageLookupByLibrary.simpleMessage("Find Restaurant Nearby"),
         "food": MessageLookupByLibrary.simpleMessage("Food"),
@@ -62,6 +66,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Forget Password"),
         "km_form_your_location":
             MessageLookupByLibrary.simpleMessage("km form your location"),
+        "km_from_location":
+            MessageLookupByLibrary.simpleMessage("Km from Location"),
         "log_in": MessageLookupByLibrary.simpleMessage("Log In"),
         "login_with_google":
             MessageLookupByLibrary.simpleMessage("Login With Google"),
@@ -93,8 +99,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "sign_up": MessageLookupByLibrary.simpleMessage("Sign Up"),
         "signup_with_google":
             MessageLookupByLibrary.simpleMessage("SignUp With Google"),
+        "snack_bar": MessageLookupByLibrary.simpleMessage("Snack Bar"),
         "special_order_for_march":
             MessageLookupByLibrary.simpleMessage("Special Offer for March"),
+        "toilet": MessageLookupByLibrary.simpleMessage("Toilet"),
+        "view_available_tables":
+            MessageLookupByLibrary.simpleMessage("View Available Tables"),
+        "view_on_google_map":
+            MessageLookupByLibrary.simpleMessage("View On Google Map"),
+        "water_facility":
+            MessageLookupByLibrary.simpleMessage("24/7 Water Facility"),
         "we_are_here_with_the_west_wurgers_in_town":
             MessageLookupByLibrary.simpleMessage(
                 "We are here with the Best Burgers in town."),

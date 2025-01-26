@@ -559,6 +559,96 @@ class S {
       args: [],
     );
   }
+
+  /// `Description`
+  String get description {
+    return Intl.message(
+      'Description',
+      name: 'description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Facilities`
+  String get facilities {
+    return Intl.message(
+      'Facilities',
+      name: 'facilities',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Km from Location`
+  String get km_from_location {
+    return Intl.message(
+      'Km from Location',
+      name: 'km_from_location',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `View On Google Map`
+  String get view_on_google_map {
+    return Intl.message(
+      'View On Google Map',
+      name: 'view_on_google_map',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `View Available Tables`
+  String get view_available_tables {
+    return Intl.message(
+      'View Available Tables',
+      name: 'view_available_tables',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Snack Bar`
+  String get snack_bar {
+    return Intl.message(
+      'Snack Bar',
+      name: 'snack_bar',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Bikes and Car Parking`
+  String get bikes_and_car_parking {
+    return Intl.message(
+      'Bikes and Car Parking',
+      name: 'bikes_and_car_parking',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Toilet`
+  String get toilet {
+    return Intl.message(
+      'Toilet',
+      name: 'toilet',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `24/7 Water Facility`
+  String get water_facility {
+    return Intl.message(
+      '24/7 Water Facility',
+      name: 'water_facility',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -49,5 +49,14 @@
   "contact_info": "Contact Info",
   "phone_number": "Phone Number",
   "edit": "Edit",
-  "occupation": "Occupation"
+  "occupation": "Occupation",
+  "description": "Description",
+  "facilities": "Facilities",
+  "km_from_location": "Km from Location",
+  "view_on_google_map": "View On Google Map",
+  "view_available_tables": "View Available Tables",
+  "snack_bar":"Snack Bar",
+  "bikes_and_car_parking": "Bikes and Car Parking",
+  "toilet": "Toilet",
+  "water_facility": "24/7 Water Facility"
 }

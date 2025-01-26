@@ -1,4 +1,4 @@
-import 'package:arestro/features/home/representation/views/widgets/list_of_restaurant_item.dart';
+import 'package:arestro/features/restaurants/representation/views/widgets/list_of_restaurant_item.dart';
 import 'package:flutter/material.dart';
 class ListOfRestaurants extends StatelessWidget {
   const ListOfRestaurants({super.key});

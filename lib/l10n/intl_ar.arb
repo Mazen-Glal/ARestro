@@ -49,6 +49,16 @@
   "contact_info": "معلومات التواصل",
   "phone_number": "رقم التليفون",
   "edit": "تعديل",
-  "occupation": "مستواك"
+  "occupation": "مستواك",
+  "description": "الوصف",
+  "facilities": "مواصفات",
+  "km_from_location": "كيلو متر من موقعك",
+  "view_on_google_map": "رؤيتة علي جوجل ماب",
+  "view_available_tables": "اظهار الطاولات المتاحة",
+  "snack_bar":"Snack Bar",
+  "bikes_and_car_parking": "مواقف الدراجات و السيارات",
+  "toilet": "حمام",
+  "water_facility": "مرفق مياه دائم"
+
 
 }

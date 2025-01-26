@@ -10,7 +10,7 @@ AppBar getDefaultAppBar(BuildContext context) {
     centerTitle: true,
     elevation: 0,
     title: SvgPicture.asset(
-      Assets.namedBlackLogo,
+      Assets.nameLogoBlack,
       width: MediaQuery.of(context).size.width/3,
     ),
     actions: [
