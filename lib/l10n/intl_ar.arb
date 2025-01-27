@@ -73,7 +73,11 @@
   "order_completed": "الطلب اكتمل",
   "skip": "تخطي",
   "submit": "تأكيد",
-  "leave_feedback": "اكتب تعليقك"
-
-
+  "leave_feedback": "اكتب تعليقك",
+  "reserve_the_table": "احجز الطاولة",
+  "main_room": "الغرفة الرئيسية",
+  "open_space": "مساحة مفتوحة",
+  "order_food": "اطلب الطعام",
+  "your_table_was_reserved_successfully": "تم حجز طاولتك بنجاح",
+  "text_under_reserved_successfully": "يرجى احترام سياساتنا والحضور إلى طاولتك المحجوزة في الوقت المحدد"
 }

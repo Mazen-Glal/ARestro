@@ -799,6 +799,66 @@ class S {
       args: [],
     );
   }
+
+  /// `Reserve The Table`
+  String get reserve_the_table {
+    return Intl.message(
+      'Reserve The Table',
+      name: 'reserve_the_table',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Main Room`
+  String get main_room {
+    return Intl.message(
+      'Main Room',
+      name: 'main_room',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Open Space`
+  String get open_space {
+    return Intl.message(
+      'Open Space',
+      name: 'open_space',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Order Food`
+  String get order_food {
+    return Intl.message(
+      'Order Food',
+      name: 'order_food',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Your Table was Reserved Successfully`
+  String get your_table_was_reserved_successfully {
+    return Intl.message(
+      'Your Table was Reserved Successfully',
+      name: 'your_table_was_reserved_successfully',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please respect our policies and do come to your reserved Table within the specified* time!`
+  String get text_under_reserved_successfully {
+    return Intl.message(
+      'Please respect our policies and do come to your reserved Table within the specified* time!',
+      name: 'text_under_reserved_successfully',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

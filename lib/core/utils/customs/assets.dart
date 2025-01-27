@@ -18,8 +18,13 @@ class Assets {
   static const String nameLogoWhite = 'assets/logo/name_logo_white.svg';
   static const String StampDark = 'assets/logo/Stamp_Dark.svg';
   static const String StampLight = 'assets/logo/Stamp_Light.svg';
+  static const String reservedTable = 'assets/restaurant/reserved_table.png';
+  static const String reserveThankYou =
+      'assets/restaurant/reserve_thank_you.png';
   static const String restaurant1 = 'assets/restaurant/restaurant1.png';
   static const String restaurant2 = 'assets/restaurant/restaurant_2.png';
+  static const String unreservedTable =
+      'assets/restaurant/unreserved_table.png';
 }
 
 Future<void> myPrecacheImage(BuildContext context) async {

@@ -4,12 +4,14 @@ import 'package:arestro/core/utils/customs/assets.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
 import 'package:arestro/features/foods/representation/views/widgets/list_of_foods.dart';
 import 'package:arestro/features/home/representation/views/widgets/title_of_list.dart';
+import 'package:arestro/features/restaurants/representation/views/reserve_table_view.dart';
 import 'package:arestro/features/restaurants/representation/views/widgets/restaurant_description.dart';
 import 'package:arestro/features/restaurants/representation/views/widgets/restaurant_facilities.dart';
 import 'package:arestro/features/restaurants/representation/views/widgets/restaurant_location_details.dart';
 import 'package:arestro/features/restaurants/representation/views/widgets/restaurant_name_and_rating.dart';
 import 'package:arestro/generated/l10n.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class RestaurantDetailsViewBody extends StatelessWidget {
   const RestaurantDetailsViewBody({super.key});
@@ -42,7 +44,9 @@ class RestaurantDetailsViewBody extends StatelessWidget {
                       RestaurantNameAndRating(),
                       RestaurantLocationDetails(),
                       SizedBox(height: 20,),
-                      RestaurantDescription(),
+                      RestaurantDescription(
+                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+                      ),
                       SizedBox(height: 20,),
                       RestaurantFacilities(),
                       SizedBox(height: 20,),
@@ -58,7 +62,7 @@ class RestaurantDetailsViewBody extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 33.0,vertical: 35),
             child: DefaultButton(onPressed: () {
-
+              GoRouter.of(context).push(ReserveTableView.rn);
             }, backgroundColor: AppColors.green, text: S.of(context).view_available_tables,textColor: AppColors.white,),
           )
         ],

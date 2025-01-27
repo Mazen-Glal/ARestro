@@ -77,14 +77,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "log_in": MessageLookupByLibrary.simpleMessage("Log In"),
         "login_with_google":
             MessageLookupByLibrary.simpleMessage("Login With Google"),
+        "main_room": MessageLookupByLibrary.simpleMessage("Main Room"),
         "member": MessageLookupByLibrary.simpleMessage("Member"),
         "occupation": MessageLookupByLibrary.simpleMessage("Occupation"),
+        "open_space": MessageLookupByLibrary.simpleMessage("Open Space"),
         "or_continue_with":
             MessageLookupByLibrary.simpleMessage("or continue with"),
         "order": MessageLookupByLibrary.simpleMessage("Order"),
         "order_completed":
             MessageLookupByLibrary.simpleMessage("Order completed"),
         "order_details": MessageLookupByLibrary.simpleMessage("Order Details"),
+        "order_food": MessageLookupByLibrary.simpleMessage("Order Food"),
         "pass_changed":
             MessageLookupByLibrary.simpleMessage("Password Changed"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
@@ -101,6 +104,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Remember Password"),
         "repeat_new_pass":
             MessageLookupByLibrary.simpleMessage("Repeat New Password"),
+        "reserve_the_table":
+            MessageLookupByLibrary.simpleMessage("Reserve The Table"),
         "reset_pass": MessageLookupByLibrary.simpleMessage("Reset Password"),
         "restaurants": MessageLookupByLibrary.simpleMessage("Restaurants"),
         "restaurants_nearby":
@@ -119,6 +124,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Special Offer for March"),
         "sub_total": MessageLookupByLibrary.simpleMessage("Sub Total"),
         "submit": MessageLookupByLibrary.simpleMessage("Submit"),
+        "text_under_reserved_successfully": MessageLookupByLibrary.simpleMessage(
+            "Please respect our policies and do come to your reserved Table within the specified* time!"),
         "thank_you": MessageLookupByLibrary.simpleMessage("Thank You!"),
         "toilet": MessageLookupByLibrary.simpleMessage("Toilet"),
         "total": MessageLookupByLibrary.simpleMessage("Total"),
@@ -131,6 +138,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "we_are_here_with_the_west_wurgers_in_town":
             MessageLookupByLibrary.simpleMessage(
                 "We are here with the Best Burgers in town."),
-        "your_name": MessageLookupByLibrary.simpleMessage("Your Name")
+        "your_name": MessageLookupByLibrary.simpleMessage("Your Name"),
+        "your_table_was_reserved_successfully":
+            MessageLookupByLibrary.simpleMessage(
+                "Your Table was Reserved Successfully")
       };
 }

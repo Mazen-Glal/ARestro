@@ -73,5 +73,11 @@
   "order_completed": "Order completed",
   "skip": "Skip",
   "submit": "Submit",
-  "leave_feedback": "Leave Feedback"
+  "leave_feedback": "Leave Feedback",
+  "reserve_the_table": "Reserve The Table",
+  "main_room": "Main Room",
+  "open_space": "Open Space",
+  "order_food": "Order Food",
+  "your_table_was_reserved_successfully": "Your Table was Reserved Successfully",
+  "text_under_reserved_successfully": "Please respect our policies and do come to your reserved Table within the specified* time!"
 }

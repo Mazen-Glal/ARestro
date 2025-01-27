@@ -78,13 +78,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "log_in": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "login_with_google":
             MessageLookupByLibrary.simpleMessage("تسجيل الدخول بجوجل"),
+        "main_room": MessageLookupByLibrary.simpleMessage("الغرفة الرئيسية"),
         "member": MessageLookupByLibrary.simpleMessage("عضو"),
         "occupation": MessageLookupByLibrary.simpleMessage("مستواك"),
+        "open_space": MessageLookupByLibrary.simpleMessage("مساحة مفتوحة"),
         "or_continue_with":
             MessageLookupByLibrary.simpleMessage("or continue with"),
         "order": MessageLookupByLibrary.simpleMessage("طلب"),
         "order_completed": MessageLookupByLibrary.simpleMessage("الطلب اكتمل"),
         "order_details": MessageLookupByLibrary.simpleMessage("تفاصيل الطلب"),
+        "order_food": MessageLookupByLibrary.simpleMessage("اطلب الطعام"),
         "pass_changed":
             MessageLookupByLibrary.simpleMessage("تم تغير الرقم السري"),
         "password": MessageLookupByLibrary.simpleMessage("الرقم السري"),
@@ -100,6 +103,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("تذكر الرقم السري"),
         "repeat_new_pass":
             MessageLookupByLibrary.simpleMessage("اعادة الرقم السري"),
+        "reserve_the_table":
+            MessageLookupByLibrary.simpleMessage("احجز الطاولة"),
         "reset_pass": MessageLookupByLibrary.simpleMessage("أعادة الرقم السري"),
         "restaurants": MessageLookupByLibrary.simpleMessage("مطاعم"),
         "restaurants_nearby":
@@ -118,6 +123,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("عرض خاص لشهر مارس"),
         "sub_total": MessageLookupByLibrary.simpleMessage("المجموع الفرعي"),
         "submit": MessageLookupByLibrary.simpleMessage("تأكيد"),
+        "text_under_reserved_successfully": MessageLookupByLibrary.simpleMessage(
+            "يرجى احترام سياساتنا والحضور إلى طاولتك المحجوزة في الوقت المحدد"),
         "thank_you": MessageLookupByLibrary.simpleMessage("شكرا لك"),
         "toilet": MessageLookupByLibrary.simpleMessage("حمام"),
         "total": MessageLookupByLibrary.simpleMessage("المجموع الاجمالي "),
@@ -130,6 +137,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "we_are_here_with_the_west_wurgers_in_town":
             MessageLookupByLibrary.simpleMessage(
                 "نحن هنا مع أفضل البرغر في المدينة."),
-        "your_name": MessageLookupByLibrary.simpleMessage("الاسم")
+        "your_name": MessageLookupByLibrary.simpleMessage("الاسم"),
+        "your_table_was_reserved_successfully":
+            MessageLookupByLibrary.simpleMessage("تم حجز طاولتك بنجاح")
       };
 }

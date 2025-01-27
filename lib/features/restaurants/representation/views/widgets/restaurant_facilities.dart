@@ -5,9 +5,11 @@ import 'package:arestro/generated/l10n.dart';
 import 'package:flutter/material.dart';
 class RestaurantFacilities extends StatelessWidget {
   const RestaurantFacilities({
-    super.key,
+    super.key, this.titleTextStyle, this.textTextStyle,
   });
 
+  final TextStyle? titleTextStyle;
+  final TextStyle? textTextStyle;
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -15,7 +17,7 @@ class RestaurantFacilities extends StatelessWidget {
       children: [
         Text(
           S.of(context).facilities,
-          style: Styles.head24w700,
+          style: titleTextStyle??Styles.head24w700,
         ),
         SizedBox(height: 5,),
         Row(

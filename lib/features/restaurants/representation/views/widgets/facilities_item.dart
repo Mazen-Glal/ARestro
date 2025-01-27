@@ -5,9 +5,9 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 class FacilitiesItem extends StatelessWidget {
   const FacilitiesItem({
     super.key,
-    required this.text
+    required this.text, this.textTextStyle
   });
-
+  final TextStyle? textTextStyle;
   final String text;
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class FacilitiesItem extends StatelessWidget {
       children: [
         Icon(FontAwesomeIcons.check,size: 15,color: AppColors.green,),
         SizedBox(width: 5,),
-        Text(text,style: Styles.head12w500,)
+        Text(text,style:textTextStyle?? Styles.head12w500,)
       ],
     );
   }
