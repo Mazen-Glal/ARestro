@@ -65,6 +65,7 @@ dev_dependencies:
 asset_generator:
   images:
     - assets/auth/
+    - assets/order/
     - assets/foods/
     - assets/home/
     - assets/profile/
@@ -106,6 +107,7 @@ flutter:
     - assets/home/
     - assets/profile/
     - assets/logo/
+    - assets/order/
     - assets/restaurant/
 
 flutter_native_splash:

@@ -7,7 +7,10 @@ import 'package:arestro/features/auth/presentation/views/pass_change_view.dart';
 import 'package:arestro/features/auth/presentation/views/register_view.dart';
 import 'package:arestro/features/auth/presentation/views/reset_password_view.dart';
 import 'package:arestro/features/auth/presentation/views/reset_password_view.dart';
+import 'package:arestro/features/foods/representation/views/food_details_view.dart';
 import 'package:arestro/features/home/representation/views/home_view.dart';
+import 'package:arestro/features/order/representation/views/order_details_view.dart';
+import 'package:arestro/features/order/representation/views/thank_you_view.dart';
 import 'package:arestro/features/profile/representation/views/profile_view.dart';
 import 'package:arestro/features/restaurants/representation/views/restaurant_details_view.dart';
 import 'package:arestro/features/restaurants/representation/views/restaurant_details_view.dart';
@@ -57,6 +60,18 @@ class RouteHelper {
       GoRoute(
         path: RestaurantDetailsView.rn,
         builder: (context, state) => const RestaurantDetailsView(),
+      ),
+      GoRoute(
+        path: OrderDetailsView.rn,
+        builder: (context, state) => const OrderDetailsView(),
+      ),
+      GoRoute(
+        path: FoodDetailsView.rn,
+        builder: (context, state) => const FoodDetailsView(),
+      ),
+      GoRoute(
+        path: ThankYouView.rn,
+        builder: (context, state) => const ThankYouView(),
       ),
     ],
   );

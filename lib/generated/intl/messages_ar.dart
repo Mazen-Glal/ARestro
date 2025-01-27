@@ -22,6 +22,8 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "add_to_cart":
+            MessageLookupByLibrary.simpleMessage("اضافة الي عربة التسوق"),
         "address": MessageLookupByLibrary.simpleMessage("العنوان"),
         "already_have_account":
             MessageLookupByLibrary.simpleMessage("هل لديك حساب؟"),
@@ -35,6 +37,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "cart": MessageLookupByLibrary.simpleMessage("عربة التسوق"),
         "contact_info": MessageLookupByLibrary.simpleMessage("معلومات التواصل"),
         "create_an_account": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
+        "delivery_charge":
+            MessageLookupByLibrary.simpleMessage("رسوم التوصيل "),
         "description": MessageLookupByLibrary.simpleMessage("الوصف"),
         "description_forget_pass": MessageLookupByLibrary.simpleMessage(
             "لا تقلق هذا يحدث ,ادخل الايميل الخاص بك فقط"),
@@ -42,6 +46,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("تم تغير الرقم السري بنجاح"),
         "description_reset_pass":
             MessageLookupByLibrary.simpleMessage("ارجوك ادخل رقم تستطيع تذكره"),
+        "discount": MessageLookupByLibrary.simpleMessage("خصم"),
         "do_not_have_account":
             MessageLookupByLibrary.simpleMessage("هل لا تمتلك حساب ؟"),
         "edit": MessageLookupByLibrary.simpleMessage("تعديل"),
@@ -69,6 +74,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("كليو متر من موقغك"),
         "km_from_location":
             MessageLookupByLibrary.simpleMessage("كيلو متر من موقعك"),
+        "leave_feedback": MessageLookupByLibrary.simpleMessage("اكتب تعليقك"),
         "log_in": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "login_with_google":
             MessageLookupByLibrary.simpleMessage("تسجيل الدخول بجوجل"),
@@ -76,13 +82,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "occupation": MessageLookupByLibrary.simpleMessage("مستواك"),
         "or_continue_with":
             MessageLookupByLibrary.simpleMessage("or continue with"),
+        "order": MessageLookupByLibrary.simpleMessage("طلب"),
+        "order_completed": MessageLookupByLibrary.simpleMessage("الطلب اكتمل"),
+        "order_details": MessageLookupByLibrary.simpleMessage("تفاصيل الطلب"),
         "pass_changed":
             MessageLookupByLibrary.simpleMessage("تم تغير الرقم السري"),
         "password": MessageLookupByLibrary.simpleMessage("الرقم السري"),
         "personal_info": MessageLookupByLibrary.simpleMessage("معلومات شخصية"),
         "phone_number": MessageLookupByLibrary.simpleMessage("رقم التليفون"),
+        "place_my_order": MessageLookupByLibrary.simpleMessage("وضع طلبي"),
+        "popular": MessageLookupByLibrary.simpleMessage("شائع"),
         "popular_restaurants":
             MessageLookupByLibrary.simpleMessage("مطاعم شهيرة"),
+        "rating": MessageLookupByLibrary.simpleMessage("تقييم"),
         "remember_me": MessageLookupByLibrary.simpleMessage("تذكرني"),
         "remember_pass":
             MessageLookupByLibrary.simpleMessage("تذكر الرقم السري"),
@@ -100,10 +112,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "sign_up": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
         "signup_with_google":
             MessageLookupByLibrary.simpleMessage("انشاء حساب بجوجل"),
+        "skip": MessageLookupByLibrary.simpleMessage("تخطي"),
         "snack_bar": MessageLookupByLibrary.simpleMessage("Snack Bar"),
         "special_order_for_march":
             MessageLookupByLibrary.simpleMessage("عرض خاص لشهر مارس"),
+        "sub_total": MessageLookupByLibrary.simpleMessage("المجموع الفرعي"),
+        "submit": MessageLookupByLibrary.simpleMessage("تأكيد"),
+        "thank_you": MessageLookupByLibrary.simpleMessage("شكرا لك"),
         "toilet": MessageLookupByLibrary.simpleMessage("حمام"),
+        "total": MessageLookupByLibrary.simpleMessage("المجموع الاجمالي "),
         "view_available_tables":
             MessageLookupByLibrary.simpleMessage("اظهار الطاولات المتاحة"),
         "view_on_google_map":

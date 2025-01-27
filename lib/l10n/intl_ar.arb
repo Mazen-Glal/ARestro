@@ -58,7 +58,22 @@
   "snack_bar":"Snack Bar",
   "bikes_and_car_parking": "مواقف الدراجات و السيارات",
   "toilet": "حمام",
-  "water_facility": "مرفق مياه دائم"
+  "water_facility": "مرفق مياه دائم",
+  "popular": "شائع",
+  "rating": "تقييم",
+  "add_to_cart": "اضافة الي عربة التسوق",
+  "order": "طلب",
+  "order_details": "تفاصيل الطلب",
+  "sub_total": "المجموع الفرعي",
+  "delivery_charge": "رسوم التوصيل ",
+  "discount": "خصم",
+  "total": "المجموع الاجمالي ",
+  "place_my_order": "وضع طلبي",
+  "thank_you": "شكرا لك",
+  "order_completed": "الطلب اكتمل",
+  "skip": "تخطي",
+  "submit": "تأكيد",
+  "leave_feedback": "اكتب تعليقك"
 
 
 }

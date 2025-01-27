@@ -22,6 +22,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "add_to_cart": MessageLookupByLibrary.simpleMessage("Add to Cart"),
         "address": MessageLookupByLibrary.simpleMessage("Address"),
         "already_have_account":
             MessageLookupByLibrary.simpleMessage("Already have an account ?"),
@@ -35,6 +36,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "contact_info": MessageLookupByLibrary.simpleMessage("Contact Info"),
         "create_an_account":
             MessageLookupByLibrary.simpleMessage("Create an account"),
+        "delivery_charge":
+            MessageLookupByLibrary.simpleMessage("Delivery Charge"),
         "description": MessageLookupByLibrary.simpleMessage("Description"),
         "description_forget_pass": MessageLookupByLibrary.simpleMessage(
             "Don’t worry! It happens. Please enter the email associated with your account."),
@@ -42,6 +45,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Your Password has been changed successfully"),
         "description_reset_pass": MessageLookupByLibrary.simpleMessage(
             "Please type something you’ll remember"),
+        "discount": MessageLookupByLibrary.simpleMessage("Discount"),
         "do_not_have_account":
             MessageLookupByLibrary.simpleMessage("Don`t have an account ?"),
         "edit": MessageLookupByLibrary.simpleMessage("Edit"),
@@ -68,6 +72,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("km form your location"),
         "km_from_location":
             MessageLookupByLibrary.simpleMessage("Km from Location"),
+        "leave_feedback":
+            MessageLookupByLibrary.simpleMessage("Leave Feedback"),
         "log_in": MessageLookupByLibrary.simpleMessage("Log In"),
         "login_with_google":
             MessageLookupByLibrary.simpleMessage("Login With Google"),
@@ -75,13 +81,21 @@ class MessageLookup extends MessageLookupByLibrary {
         "occupation": MessageLookupByLibrary.simpleMessage("Occupation"),
         "or_continue_with":
             MessageLookupByLibrary.simpleMessage("or continue with"),
+        "order": MessageLookupByLibrary.simpleMessage("Order"),
+        "order_completed":
+            MessageLookupByLibrary.simpleMessage("Order completed"),
+        "order_details": MessageLookupByLibrary.simpleMessage("Order Details"),
         "pass_changed":
             MessageLookupByLibrary.simpleMessage("Password Changed"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "personal_info": MessageLookupByLibrary.simpleMessage("Personal Info"),
         "phone_number": MessageLookupByLibrary.simpleMessage("Phone Number"),
+        "place_my_order":
+            MessageLookupByLibrary.simpleMessage("Place My Order"),
+        "popular": MessageLookupByLibrary.simpleMessage("Popular"),
         "popular_restaurants":
             MessageLookupByLibrary.simpleMessage("Popular Restaurants"),
+        "rating": MessageLookupByLibrary.simpleMessage("Rating"),
         "remember_me": MessageLookupByLibrary.simpleMessage("Remember Me"),
         "remember_pass":
             MessageLookupByLibrary.simpleMessage("Remember Password"),
@@ -99,10 +113,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "sign_up": MessageLookupByLibrary.simpleMessage("Sign Up"),
         "signup_with_google":
             MessageLookupByLibrary.simpleMessage("SignUp With Google"),
+        "skip": MessageLookupByLibrary.simpleMessage("Skip"),
         "snack_bar": MessageLookupByLibrary.simpleMessage("Snack Bar"),
         "special_order_for_march":
             MessageLookupByLibrary.simpleMessage("Special Offer for March"),
+        "sub_total": MessageLookupByLibrary.simpleMessage("Sub Total"),
+        "submit": MessageLookupByLibrary.simpleMessage("Submit"),
+        "thank_you": MessageLookupByLibrary.simpleMessage("Thank You!"),
         "toilet": MessageLookupByLibrary.simpleMessage("Toilet"),
+        "total": MessageLookupByLibrary.simpleMessage("Total"),
         "view_available_tables":
             MessageLookupByLibrary.simpleMessage("View Available Tables"),
         "view_on_google_map":

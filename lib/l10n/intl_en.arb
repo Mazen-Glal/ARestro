@@ -58,5 +58,20 @@
   "snack_bar":"Snack Bar",
   "bikes_and_car_parking": "Bikes and Car Parking",
   "toilet": "Toilet",
-  "water_facility": "24/7 Water Facility"
+  "water_facility": "24/7 Water Facility",
+  "popular": "Popular",
+  "rating": "Rating",
+  "add_to_cart": "Add to Cart",
+  "order": "Order",
+  "order_details": "Order Details",
+  "sub_total": "Sub Total",
+  "delivery_charge": "Delivery Charge",
+  "discount": "Discount",
+  "total": "Total",
+  "place_my_order": "Place My Order",
+  "thank_you": "Thank You!",
+  "order_completed": "Order completed",
+  "skip": "Skip",
+  "submit": "Submit",
+  "leave_feedback": "Leave Feedback"
 }

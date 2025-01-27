@@ -1,6 +1,7 @@
 import 'package:arestro/core/utils/customs/assets.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
 import 'package:arestro/core/utils/customs/styles.dart';
+import 'package:arestro/features/foods/representation/views/food_details_view.dart';
 import 'package:arestro/features/profile/representation/views/profile_view.dart';
 import 'package:arestro/generated/l10n.dart';
 import 'package:flutter/material.dart';
@@ -74,7 +75,7 @@ class OfferForMonth extends StatelessWidget {
                 height: 30,
                 child: ElevatedButton(
                   onPressed: () {
-                    // GoRouter.of(context).push(ProfileView.rn);
+                    GoRouter.of(context).push(FoodDetailsView.rn);
                   },
                   style: ButtonStyle(
                     padding: WidgetStatePropertyAll(

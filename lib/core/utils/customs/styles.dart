@@ -15,11 +15,23 @@ abstract class Styles {
     fontWeight: FontWeight.w700,
     color: AppColors.black,
   );
+  static const TextStyle head20w800 = TextStyle(
+    fontSize: 20,
+    fontFamily: FontsFamily.manrope,
+    fontWeight: FontWeight.w800,
+    color: AppColors.black,
+  );
   static TextStyle head16w400 = TextStyle(
     fontSize: 16,
     color: AppColors.white,
     fontFamily: FontsFamily.manrope,
     fontWeight: FontWeight.w400,
+  );
+  static TextStyle head16w500 = TextStyle(
+    fontSize: 16,
+    color: AppColors.white,
+    fontFamily: FontsFamily.manrope,
+    fontWeight: FontWeight.w500,
   );
   static TextStyle head16w600 = TextStyle(
     fontSize: 16,

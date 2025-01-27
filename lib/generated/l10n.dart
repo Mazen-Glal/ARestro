@@ -649,6 +649,156 @@ class S {
       args: [],
     );
   }
+
+  /// `Popular`
+  String get popular {
+    return Intl.message(
+      'Popular',
+      name: 'popular',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rating`
+  String get rating {
+    return Intl.message(
+      'Rating',
+      name: 'rating',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Add to Cart`
+  String get add_to_cart {
+    return Intl.message(
+      'Add to Cart',
+      name: 'add_to_cart',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Order`
+  String get order {
+    return Intl.message(
+      'Order',
+      name: 'order',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Order Details`
+  String get order_details {
+    return Intl.message(
+      'Order Details',
+      name: 'order_details',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sub Total`
+  String get sub_total {
+    return Intl.message(
+      'Sub Total',
+      name: 'sub_total',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Delivery Charge`
+  String get delivery_charge {
+    return Intl.message(
+      'Delivery Charge',
+      name: 'delivery_charge',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Discount`
+  String get discount {
+    return Intl.message(
+      'Discount',
+      name: 'discount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Total`
+  String get total {
+    return Intl.message(
+      'Total',
+      name: 'total',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Place My Order`
+  String get place_my_order {
+    return Intl.message(
+      'Place My Order',
+      name: 'place_my_order',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Thank You!`
+  String get thank_you {
+    return Intl.message(
+      'Thank You!',
+      name: 'thank_you',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Order completed`
+  String get order_completed {
+    return Intl.message(
+      'Order completed',
+      name: 'order_completed',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Skip`
+  String get skip {
+    return Intl.message(
+      'Skip',
+      name: 'skip',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Submit`
+  String get submit {
+    return Intl.message(
+      'Submit',
+      name: 'submit',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Leave Feedback`
+  String get leave_feedback {
+    return Intl.message(
+      'Leave Feedback',
+      name: 'leave_feedback',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

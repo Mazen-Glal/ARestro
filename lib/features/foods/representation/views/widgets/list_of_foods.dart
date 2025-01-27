@@ -1,4 +1,4 @@
-import 'package:arestro/features/home/representation/views/widgets/list_of_food_item.dart';
+import 'package:arestro/features/foods/representation/views/widgets/list_of_food_item.dart';
 import 'package:flutter/material.dart';
 
 class ListOfFoods extends StatelessWidget {
