@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
     Widget? subTitle,
     double? horizontalTitleGap,
     void Function()? onTap,
+     EdgeInsetsGeometry? contentPadding
   }){
     return ListTile(
       trailing: trailing,
@@ -17,5 +18,9 @@ import 'package:flutter/material.dart';
       subtitle: subTitle,
       leading: leading,
       onTap: onTap,
+      contentPadding: contentPadding,
+      dense: true,
+      // visualDensity: VisualDensity.compact,
+
     );
   }

@@ -4,6 +4,7 @@ import 'package:arestro/core/utils/customs/colors.dart';
 import 'package:arestro/core/utils/customs/constants.dart';
 import 'package:arestro/core/utils/customs/styles.dart';
 import 'package:arestro/core/utils/helpers/cache_helper.dart';
+import 'package:arestro/features/history/representation/views/history_view.dart';
 import 'package:arestro/features/home/representation/views/home_view.dart';
 import 'package:arestro/features/settings/retresentation/views/settings_view.dart';
 import 'package:arestro/generated/l10n.dart';
@@ -114,7 +115,7 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                 style: Styles.head16w400.copyWith(color: AppColors.greenBlack),
               ),
               onTap: () {
-                // GoRouter.of(context).go(AuthView.rn);
+                GoRouter.of(context).push(HistoryView.rn);
               },
             ),
             getDefaultListTile(
@@ -159,6 +160,7 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                 // GoRouter.of(context).push(SettingView.rn);
               },
             ),
+            SizedBox(height: MediaQuery.of(context).size.height/8,),
             ButtonTheme(
               alignedDropdown: true,
               child: DropdownButton(

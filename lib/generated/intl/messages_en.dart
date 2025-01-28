@@ -37,6 +37,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "bikes_and_car_parking":
             MessageLookupByLibrary.simpleMessage("Bikes and Car Parking"),
         "buy_now": MessageLookupByLibrary.simpleMessage("Buy Now"),
+        "cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
         "cart": MessageLookupByLibrary.simpleMessage("Cart"),
         "contact_info": MessageLookupByLibrary.simpleMessage("Contact Info"),
         "create_an_account":
@@ -79,6 +80,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Forget Password"),
         "history": MessageLookupByLibrary.simpleMessage("History"),
         "home": MessageLookupByLibrary.simpleMessage("Home"),
+        "items": MessageLookupByLibrary.simpleMessage("Items"),
         "km_form_your_location":
             MessageLookupByLibrary.simpleMessage("km form your location"),
         "km_from_location":
@@ -94,6 +96,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "member": MessageLookupByLibrary.simpleMessage("Member"),
         "notifications": MessageLookupByLibrary.simpleMessage("Notifications"),
         "occupation": MessageLookupByLibrary.simpleMessage("Occupation"),
+        "ongoing": MessageLookupByLibrary.simpleMessage("Ongoing"),
         "open_space": MessageLookupByLibrary.simpleMessage("Open Space"),
         "or_continue_with":
             MessageLookupByLibrary.simpleMessage("or continue with"),
@@ -115,6 +118,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "privacy_policy":
             MessageLookupByLibrary.simpleMessage("Privacy Police"),
         "rating": MessageLookupByLibrary.simpleMessage("Rating"),
+        "reOrder": MessageLookupByLibrary.simpleMessage("Re-Order"),
         "remember_me": MessageLookupByLibrary.simpleMessage("Remember Me"),
         "remember_pass":
             MessageLookupByLibrary.simpleMessage("Remember Password"),
@@ -126,6 +130,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "restaurants": MessageLookupByLibrary.simpleMessage("Restaurants"),
         "restaurants_nearby":
             MessageLookupByLibrary.simpleMessage("Restaurants Nearby"),
+        "review": MessageLookupByLibrary.simpleMessage("Review"),
         "search": MessageLookupByLibrary.simpleMessage("Search"),
         "search_for_food_restaurants": MessageLookupByLibrary.simpleMessage(
             "Search for food, restaurants..."),
@@ -148,6 +153,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "thank_you": MessageLookupByLibrary.simpleMessage("Thank You!"),
         "toilet": MessageLookupByLibrary.simpleMessage("Toilet"),
         "total": MessageLookupByLibrary.simpleMessage("Total"),
+        "track_order": MessageLookupByLibrary.simpleMessage("Track Order"),
         "view_available_tables":
             MessageLookupByLibrary.simpleMessage("View Available Tables"),
         "view_on_google_map":

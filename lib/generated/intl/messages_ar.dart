@@ -39,6 +39,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "bikes_and_car_parking":
             MessageLookupByLibrary.simpleMessage("مواقف الدراجات و السيارات"),
         "buy_now": MessageLookupByLibrary.simpleMessage("اشترِ الآن"),
+        "cancel": MessageLookupByLibrary.simpleMessage("الغاء"),
         "cart": MessageLookupByLibrary.simpleMessage("عربة التسوق"),
         "contact_info": MessageLookupByLibrary.simpleMessage("معلومات التواصل"),
         "create_an_account": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
@@ -81,6 +82,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("هل نسيت الرقم السري"),
         "history": MessageLookupByLibrary.simpleMessage("التاريخ"),
         "home": MessageLookupByLibrary.simpleMessage("الصفحة الرئيسية"),
+        "items": MessageLookupByLibrary.simpleMessage("عناصر"),
         "km_form_your_location":
             MessageLookupByLibrary.simpleMessage("كليو متر من موقغك"),
         "km_from_location":
@@ -95,6 +97,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "member": MessageLookupByLibrary.simpleMessage("عضو"),
         "notifications": MessageLookupByLibrary.simpleMessage("الاشعارات"),
         "occupation": MessageLookupByLibrary.simpleMessage("مستواك"),
+        "ongoing": MessageLookupByLibrary.simpleMessage("جاري"),
         "open_space": MessageLookupByLibrary.simpleMessage("مساحة مفتوحة"),
         "or_continue_with":
             MessageLookupByLibrary.simpleMessage("or continue with"),
@@ -114,6 +117,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "privacy_policy":
             MessageLookupByLibrary.simpleMessage("سياسة الخصوصية"),
         "rating": MessageLookupByLibrary.simpleMessage("تقييم"),
+        "reOrder": MessageLookupByLibrary.simpleMessage("اعادة الطلب"),
         "remember_me": MessageLookupByLibrary.simpleMessage("تذكرني"),
         "remember_pass":
             MessageLookupByLibrary.simpleMessage("تذكر الرقم السري"),
@@ -125,6 +129,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "restaurants": MessageLookupByLibrary.simpleMessage("مطاعم"),
         "restaurants_nearby":
             MessageLookupByLibrary.simpleMessage("مطاعم قريبة"),
+        "review": MessageLookupByLibrary.simpleMessage("مراجعة"),
         "search": MessageLookupByLibrary.simpleMessage("بحث"),
         "search_for_food_restaurants":
             MessageLookupByLibrary.simpleMessage("ابحث عن الطعام والمطاعم..."),
@@ -147,6 +152,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "thank_you": MessageLookupByLibrary.simpleMessage("شكرا لك"),
         "toilet": MessageLookupByLibrary.simpleMessage("حمام"),
         "total": MessageLookupByLibrary.simpleMessage("المجموع الاجمالي "),
+        "track_order": MessageLookupByLibrary.simpleMessage("تتبع الطلب"),
         "view_available_tables":
             MessageLookupByLibrary.simpleMessage("اظهار الطاولات المتاحة"),
         "view_on_google_map":

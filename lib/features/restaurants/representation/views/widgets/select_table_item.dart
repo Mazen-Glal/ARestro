@@ -16,7 +16,6 @@ class SelectTableItem extends StatefulWidget {
 }
 
 class _SelectTableItemState extends State<SelectTableItem> {
-
   List<Widget> widgets = [
     MainRoom(),
     OpenSpace(),

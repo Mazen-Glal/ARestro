@@ -12,6 +12,8 @@ class Assets {
   static const String food3 = 'assets/foods/food3.png';
   static const String food4 = 'assets/foods/food4.png';
   static const String food5 = 'assets/foods/food5.png';
+  static const String arabic = 'assets/home/arabic.png';
+  static const String english = 'assets/home/english.png';
   static const String person = 'assets/profile/person.png';
   static const String logoWithoutName = 'assets/logo/logo_without_name.svg';
   static const String nameLogoBlack = 'assets/logo/name_logo_black.svg';
@@ -22,12 +24,10 @@ class Assets {
   static const String reserveThankYou =
       'assets/restaurant/reserve_thank_you.png';
   static const String restaurant1 = 'assets/restaurant/restaurant1.png';
+  static const String restaurantImage = 'assets/restaurant/restaurantImage.png';
   static const String restaurant2 = 'assets/restaurant/restaurant_2.png';
   static const String unreservedTable =
       'assets/restaurant/unreserved_table.png';
-  static const String english = 'assets/home/english.png';
-  static const String arabic = 'assets/home/arabic.png';
-
 }
 
 Future<void> myPrecacheImage(BuildContext context) async {

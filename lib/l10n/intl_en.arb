@@ -95,5 +95,11 @@
   "feedback": "Feedback",
   "terms_and_condition": "Terms And Conditions",
   "privacy_policy": "Privacy Police",
-  "faqs": "FAQs"
+  "faqs": "FAQs",
+  "ongoing": "Ongoing",
+  "track_order": "Track Order",
+  "cancel": "Cancel",
+  "items": "Items",
+  "review": "Review",
+  "reOrder": "Re-Order"
 }

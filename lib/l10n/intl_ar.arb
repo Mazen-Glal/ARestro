@@ -95,7 +95,12 @@
   "feedback": "ملاحظات",
   "terms_and_condition": "الشروط والأحكام",
   "privacy_policy": "سياسة الخصوصية",
-  "faqs": "الأسئلة الشائعة"
-
+  "faqs": "الأسئلة الشائعة",
+  "ongoing": "جاري",
+  "track_order": "تتبع الطلب",
+  "cancel": "الغاء",
+  "items": "عناصر",
+  "review": "مراجعة",
+  "reOrder": "اعادة الطلب"
 
 }

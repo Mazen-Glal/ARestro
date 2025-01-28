@@ -8,6 +8,7 @@ import 'package:arestro/features/auth/presentation/views/register_view.dart';
 import 'package:arestro/features/auth/presentation/views/reset_password_view.dart';
 import 'package:arestro/features/auth/presentation/views/reset_password_view.dart';
 import 'package:arestro/features/foods/representation/views/food_details_view.dart';
+import 'package:arestro/features/history/representation/views/history_view.dart';
 import 'package:arestro/features/home/representation/views/home_view.dart';
 import 'package:arestro/features/order/representation/views/order_details_view.dart';
 import 'package:arestro/features/order/representation/views/thank_you_view.dart';
@@ -88,6 +89,10 @@ class RouteHelper {
       GoRoute(
         path: SettingsView.rn,
         builder: (context, state) => const SettingsView(),
+      ),
+      GoRoute(
+        path: HistoryView.rn,
+        builder: (context, state) => const HistoryView(),
       ),
     ],
   );
