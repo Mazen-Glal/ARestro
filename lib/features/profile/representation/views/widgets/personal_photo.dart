@@ -18,6 +18,8 @@ class PersonalPhoto extends StatelessWidget {
             child: AvatarGlow(
               startDelay: const Duration(milliseconds: 1000),
               glowColor: AppColors.green,
+              glowCount: 2,
+              glowRadiusFactor: 0.2,
               glowShape: BoxShape.circle,
               animate: true,
               curve: Curves.fastOutSlowIn,

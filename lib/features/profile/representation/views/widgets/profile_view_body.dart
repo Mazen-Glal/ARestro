@@ -1,3 +1,4 @@
+import 'package:arestro/core/utils/components/default_app_bar.dart';
 import 'package:arestro/core/utils/components/default_button.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
 import 'package:arestro/core/utils/customs/drawer_widget.dart';
@@ -13,6 +14,7 @@ class ProfileViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.white,
+      appBar: getDefaultAppBar(context),
       drawer:DrawerWidget(),
       body: SafeArea(
         child: SingleChildScrollView(
@@ -24,7 +26,6 @@ class ProfileViewBody extends StatelessWidget {
             spacing: 20,
             children: [
               PersonalPhoto(),
-              SizedBox(height: 25),
               PersonalInfo(),
               ContactInfo(),
               SizedBox(height: 25),
