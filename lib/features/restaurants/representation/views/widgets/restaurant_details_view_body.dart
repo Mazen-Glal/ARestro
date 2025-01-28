@@ -2,6 +2,7 @@ import 'package:arestro/core/utils/components/default_app_bar.dart';
 import 'package:arestro/core/utils/components/default_button.dart';
 import 'package:arestro/core/utils/customs/assets.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
+import 'package:arestro/core/utils/customs/drawer_widget.dart';
 import 'package:arestro/features/foods/representation/views/widgets/list_of_foods.dart';
 import 'package:arestro/features/home/representation/views/widgets/title_of_list.dart';
 import 'package:arestro/features/restaurants/representation/views/reserve_table_view.dart';
@@ -19,6 +20,7 @@ class RestaurantDetailsViewBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer:DrawerWidget(),
       backgroundColor: AppColors.white,
       appBar: getDefaultAppBar(context),
       body: Stack(

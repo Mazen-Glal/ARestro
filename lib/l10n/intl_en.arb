@@ -79,5 +79,21 @@
   "open_space": "Open Space",
   "order_food": "Order Food",
   "your_table_was_reserved_successfully": "Your Table was Reserved Successfully",
-  "text_under_reserved_successfully": "Please respect our policies and do come to your reserved Table within the specified* time!"
+  "text_under_reserved_successfully": "Please respect our policies and do come to your reserved Table within the specified* time!",
+  "home": "Home",
+  "about_us": "About Us",
+  "history": "History",
+  "Help_And_Support": "Help And Support",
+  "log_out": "Log out",
+  "settings": "Settings",
+  "languages": "Languages",
+  "english":"English",
+  "arabic":"Arabic",
+  "dashboard": "Dashboard",
+  "notifications": "Notifications",
+  "about_arestro": "About Arestro",
+  "feedback": "Feedback",
+  "terms_and_condition": "Terms And Conditions",
+  "privacy_policy": "Privacy Police",
+  "faqs": "FAQs"
 }

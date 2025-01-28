@@ -69,6 +69,12 @@ abstract class Styles {
     fontFamily: FontsFamily.manrope,
     color: AppColors.black,
   );
+  static TextStyle head18w400 = TextStyle(
+    fontWeight: FontWeight.w400,
+    fontSize: 18,
+    fontFamily: FontsFamily.manrope,
+    color:  Color(0xff5E5E5E),
+  );
   static TextStyle head15w700 = TextStyle(
     fontWeight: FontWeight.w700,
     fontSize: 15,

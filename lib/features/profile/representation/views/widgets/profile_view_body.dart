@@ -1,5 +1,6 @@
 import 'package:arestro/core/utils/components/default_button.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
+import 'package:arestro/core/utils/customs/drawer_widget.dart';
 import 'package:arestro/features/profile/representation/views/widgets/contact_info.dart';
 import 'package:arestro/features/profile/representation/views/widgets/personal_info.dart';
 import 'package:arestro/features/profile/representation/views/widgets/personal_photo.dart';
@@ -12,6 +13,7 @@ class ProfileViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.white,
+      drawer:DrawerWidget(),
       body: SafeArea(
         child: SingleChildScrollView(
           physics: BouncingScrollPhysics(),

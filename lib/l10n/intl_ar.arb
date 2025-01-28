@@ -79,5 +79,23 @@
   "open_space": "مساحة مفتوحة",
   "order_food": "اطلب الطعام",
   "your_table_was_reserved_successfully": "تم حجز طاولتك بنجاح",
-  "text_under_reserved_successfully": "يرجى احترام سياساتنا والحضور إلى طاولتك المحجوزة في الوقت المحدد"
+  "text_under_reserved_successfully": "يرجى احترام سياساتنا والحضور إلى طاولتك المحجوزة في الوقت المحدد",
+  "home": "الصفحة الرئيسية",
+  "about_us": "معلومات عنا",
+  "history": "التاريخ",
+  "Help_And_Support": "الدعم و المساعدة",
+  "log_out": "تسجيل الهروج",
+  "settings": "الاعدادات",
+  "languages": "اللغات",
+  "english":"الانجليزية",
+  "arabic":"العربية",
+  "dashboard": "لوحة التحكم",
+  "notifications": "الاشعارات",
+  "about_arestro": "حول Arestro",
+  "feedback": "ملاحظات",
+  "terms_and_condition": "الشروط والأحكام",
+  "privacy_policy": "سياسة الخصوصية",
+  "faqs": "الأسئلة الشائعة"
+
+
 }

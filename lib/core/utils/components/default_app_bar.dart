@@ -5,6 +5,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 
 AppBar getDefaultAppBar(BuildContext context) {
+  GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   return AppBar(
     backgroundColor: Colors.transparent,
     centerTitle: true,
@@ -28,6 +29,6 @@ AppBar getDefaultAppBar(BuildContext context) {
         ),
       )
     ],
-    leading: Icon(Icons.menu),
+    // leading: DrawerIcon(scaffoldKey: scaffoldKey,),
   );
 }

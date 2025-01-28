@@ -22,12 +22,17 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "Help_And_Support":
+            MessageLookupByLibrary.simpleMessage("الدعم و المساعدة"),
+        "about_arestro": MessageLookupByLibrary.simpleMessage("حول Arestro"),
+        "about_us": MessageLookupByLibrary.simpleMessage("معلومات عنا"),
         "add_to_cart":
             MessageLookupByLibrary.simpleMessage("اضافة الي عربة التسوق"),
         "address": MessageLookupByLibrary.simpleMessage("العنوان"),
         "already_have_account":
             MessageLookupByLibrary.simpleMessage("هل لديك حساب؟"),
         "app_name": MessageLookupByLibrary.simpleMessage("ARestro"),
+        "arabic": MessageLookupByLibrary.simpleMessage("العربية"),
         "back_to_login": MessageLookupByLibrary.simpleMessage(
             "العودة الي صفحة تسجيل الدخول"),
         "best_offers": MessageLookupByLibrary.simpleMessage("أفضل العروض"),
@@ -37,6 +42,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "cart": MessageLookupByLibrary.simpleMessage("عربة التسوق"),
         "contact_info": MessageLookupByLibrary.simpleMessage("معلومات التواصل"),
         "create_an_account": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
+        "dashboard": MessageLookupByLibrary.simpleMessage("لوحة التحكم"),
         "delivery_charge":
             MessageLookupByLibrary.simpleMessage("رسوم التوصيل "),
         "description": MessageLookupByLibrary.simpleMessage("الوصف"),
@@ -53,6 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "email": MessageLookupByLibrary.simpleMessage("الايميل"),
         "email_example":
             MessageLookupByLibrary.simpleMessage("example@gmail.com"),
+        "english": MessageLookupByLibrary.simpleMessage("الانجليزية"),
         "enter_email":
             MessageLookupByLibrary.simpleMessage("ادخل الايميل الخاص بك"),
         "enter_new_pass":
@@ -63,6 +70,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "enter_your_username":
             MessageLookupByLibrary.simpleMessage("ادخل اسم المستخدم"),
         "facilities": MessageLookupByLibrary.simpleMessage("مواصفات"),
+        "faqs": MessageLookupByLibrary.simpleMessage("الأسئلة الشائعة"),
+        "feedback": MessageLookupByLibrary.simpleMessage("ملاحظات"),
         "find_restaurant_nearby":
             MessageLookupByLibrary.simpleMessage("اعثر على مطعم قريب"),
         "food": MessageLookupByLibrary.simpleMessage("طعام"),
@@ -70,16 +79,21 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("هل نسيت الرقم السري؟"),
         "forget_password":
             MessageLookupByLibrary.simpleMessage("هل نسيت الرقم السري"),
+        "history": MessageLookupByLibrary.simpleMessage("التاريخ"),
+        "home": MessageLookupByLibrary.simpleMessage("الصفحة الرئيسية"),
         "km_form_your_location":
             MessageLookupByLibrary.simpleMessage("كليو متر من موقغك"),
         "km_from_location":
             MessageLookupByLibrary.simpleMessage("كيلو متر من موقعك"),
+        "languages": MessageLookupByLibrary.simpleMessage("اللغات"),
         "leave_feedback": MessageLookupByLibrary.simpleMessage("اكتب تعليقك"),
         "log_in": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
+        "log_out": MessageLookupByLibrary.simpleMessage("تسجيل الهروج"),
         "login_with_google":
             MessageLookupByLibrary.simpleMessage("تسجيل الدخول بجوجل"),
         "main_room": MessageLookupByLibrary.simpleMessage("الغرفة الرئيسية"),
         "member": MessageLookupByLibrary.simpleMessage("عضو"),
+        "notifications": MessageLookupByLibrary.simpleMessage("الاشعارات"),
         "occupation": MessageLookupByLibrary.simpleMessage("مستواك"),
         "open_space": MessageLookupByLibrary.simpleMessage("مساحة مفتوحة"),
         "or_continue_with":
@@ -97,6 +111,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "popular": MessageLookupByLibrary.simpleMessage("شائع"),
         "popular_restaurants":
             MessageLookupByLibrary.simpleMessage("مطاعم شهيرة"),
+        "privacy_policy":
+            MessageLookupByLibrary.simpleMessage("سياسة الخصوصية"),
         "rating": MessageLookupByLibrary.simpleMessage("تقييم"),
         "remember_me": MessageLookupByLibrary.simpleMessage("تذكرني"),
         "remember_pass":
@@ -114,6 +130,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("ابحث عن الطعام والمطاعم..."),
         "see_all": MessageLookupByLibrary.simpleMessage(" < عرض الكل"),
         "send_code": MessageLookupByLibrary.simpleMessage("ارسال الكود"),
+        "settings": MessageLookupByLibrary.simpleMessage("الاعدادات"),
         "sign_up": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
         "signup_with_google":
             MessageLookupByLibrary.simpleMessage("انشاء حساب بجوجل"),
@@ -123,6 +140,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("عرض خاص لشهر مارس"),
         "sub_total": MessageLookupByLibrary.simpleMessage("المجموع الفرعي"),
         "submit": MessageLookupByLibrary.simpleMessage("تأكيد"),
+        "terms_and_condition":
+            MessageLookupByLibrary.simpleMessage("الشروط والأحكام"),
         "text_under_reserved_successfully": MessageLookupByLibrary.simpleMessage(
             "يرجى احترام سياساتنا والحضور إلى طاولتك المحجوزة في الوقت المحدد"),
         "thank_you": MessageLookupByLibrary.simpleMessage("شكرا لك"),

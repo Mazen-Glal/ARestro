@@ -25,6 +25,9 @@ class Assets {
   static const String restaurant2 = 'assets/restaurant/restaurant_2.png';
   static const String unreservedTable =
       'assets/restaurant/unreserved_table.png';
+  static const String english = 'assets/home/english.png';
+  static const String arabic = 'assets/home/arabic.png';
+
 }
 
 Future<void> myPrecacheImage(BuildContext context) async {

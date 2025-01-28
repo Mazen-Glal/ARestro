@@ -2,6 +2,7 @@ import 'package:arestro/core/utils/components/default_app_bar.dart';
 import 'package:arestro/core/utils/components/default_button.dart';
 import 'package:arestro/core/utils/customs/assets.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
+import 'package:arestro/core/utils/customs/drawer_widget.dart';
 import 'package:arestro/features/foods/representation/views/widgets/food_component_details.dart';
 import 'package:arestro/features/foods/representation/views/widgets/food_name.dart';
 import 'package:arestro/features/foods/representation/views/widgets/food_rating_and_shpping_bag.dart';
@@ -17,6 +18,7 @@ class FoodDetailsViewBody extends StatelessWidget {
     return  Scaffold(
       backgroundColor: AppColors.white,
       appBar: getDefaultAppBar(context),
+      drawer:DrawerWidget(),
       body: Stack(
         alignment: Alignment.bottomCenter,
         children: [

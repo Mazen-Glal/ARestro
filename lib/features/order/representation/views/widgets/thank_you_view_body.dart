@@ -1,5 +1,6 @@
 import 'package:arestro/core/utils/customs/assets.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
+import 'package:arestro/core/utils/customs/drawer_widget.dart';
 import 'package:arestro/core/utils/customs/styles.dart';
 import 'package:arestro/features/order/representation/views/widgets/order_rating_feedback.dart';
 import 'package:arestro/features/order/representation/views/widgets/thank_you_buttons.dart';
@@ -13,6 +14,7 @@ class ThankYouViewBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer:DrawerWidget(),
       backgroundColor: AppColors.white,
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),

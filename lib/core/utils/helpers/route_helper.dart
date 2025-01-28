@@ -18,6 +18,7 @@ import 'package:arestro/features/restaurants/representation/views/restaurant_det
 import 'package:arestro/features/restaurants/representation/views/restaurant_details_view.dart';
 import 'package:arestro/features/restaurants/representation/views/widgets/reserve_table_thank_you_view.dart';
 import 'package:arestro/features/search/representation/views/search_view.dart';
+import 'package:arestro/features/settings/retresentation/views/settings_view.dart';
 import 'package:go_router/go_router.dart';
 class RouteHelper {
   static late String path;
@@ -83,6 +84,10 @@ class RouteHelper {
       GoRoute(
         path: ReserveTableView.rn,
         builder: (context, state) => const ReserveTableView(),
+      ),
+      GoRoute(
+        path: SettingsView.rn,
+        builder: (context, state) => const SettingsView(),
       ),
     ],
   );

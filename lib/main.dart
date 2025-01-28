@@ -1,9 +1,15 @@
+import 'package:arestro/core/utils/customs/assets.dart';
+import 'package:arestro/core/utils/customs/constants.dart';
+import 'package:arestro/core/utils/helpers/cache_helper.dart';
 import 'package:arestro/core/utils/helpers/theme_helper.dart';
 import 'package:arestro/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'core/utils/helpers/route_helper.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-void main() {
+Future<void> main()async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await CacheHelper.initialCacheHelper();
+  language = await  CacheHelper.getData(key: "language") ?? Assets.english;
   ThemeData selectedTheme = ThemeHelper.isDarkMode ? ThemeHelper.darkTheme :ThemeHelper.lightTheme;
   runApp(MyApp(selectedTheme: selectedTheme,));
 }

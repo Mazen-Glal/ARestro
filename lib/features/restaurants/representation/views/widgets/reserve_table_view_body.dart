@@ -1,3 +1,4 @@
+import 'package:arestro/core/utils/customs/drawer_widget.dart';
 import 'package:arestro/features/restaurants/representation/views/widgets/reserve_table_thank_you_view.dart';
 import 'package:arestro/features/restaurants/representation/views/widgets/select_table_item.dart';
 import 'package:flutter_toggle_tab/flutter_toggle_tab.dart';
@@ -17,6 +18,7 @@ class ReserveTableViewBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer:DrawerWidget(),
       backgroundColor: AppColors.white,
       appBar: getDefaultAppBar(context),
       body: Padding(
