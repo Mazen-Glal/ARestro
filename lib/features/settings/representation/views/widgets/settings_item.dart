@@ -1,7 +1,6 @@
 import 'package:arestro/core/utils/customs/colors.dart';
 import 'package:arestro/core/utils/customs/styles.dart';
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 
 class SettingsItem extends StatelessWidget {
   const SettingsItem({

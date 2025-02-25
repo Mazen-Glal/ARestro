@@ -1,8 +1,8 @@
 import 'package:arestro/core/utils/customs/assets.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
+import 'package:arestro/core/utils/customs/constants.dart';
 import 'package:arestro/core/utils/customs/styles.dart';
 import 'package:arestro/features/foods/representation/views/food_details_view.dart';
-import 'package:arestro/features/profile/representation/views/profile_view.dart';
 import 'package:arestro/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -28,13 +28,19 @@ class OfferForMonth extends StatelessWidget {
                 AppColors.green,
                 AppColors.white,
               ],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
+              begin: language == Assets.english
+                  ? Alignment.topLeft
+                  : Alignment.topRight,
+              end: language == Assets.english
+                  ? Alignment.bottomRight
+                  : Alignment.bottomLeft,
             ),
           ),
         ),
         Align(
-          alignment: Alignment.bottomRight,
+          alignment: language == Assets.english
+              ? Alignment.bottomRight
+              : Alignment.bottomLeft,
           child: ClipRRect(
             borderRadius: BorderRadius.circular(10),
             child: Image.asset(
@@ -45,7 +51,11 @@ class OfferForMonth extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: EdgeInsets.only(left: 20, top: 20),
+          padding: EdgeInsets.only(
+            left: language == Assets.english ? 20 : 0,
+            top: language == Assets.english ? 20 : 20,
+            right: language == Assets.english ? 0 : 5,
+          ),
           child: Column(
             spacing: 10,
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -62,9 +72,7 @@ class OfferForMonth extends StatelessWidget {
               SizedBox(
                 width: 115,
                 child: Text(
-                  S
-                      .of(context)
-                      .we_are_here_with_the_west_wurgers_in_town,
+                  S.of(context).we_are_here_with_the_west_wurgers_in_town,
                   style: Styles.head10w500.copyWith(
                     color: AppColors.white,
                   ),
@@ -79,17 +87,14 @@ class OfferForMonth extends StatelessWidget {
                   },
                   style: ButtonStyle(
                     padding: WidgetStatePropertyAll(
-                        EdgeInsets.symmetric(
-                            horizontal: 20, vertical: 0)),
-                    shape:
-                    WidgetStatePropertyAll(RoundedRectangleBorder(
+                        EdgeInsets.symmetric(horizontal: 20, vertical: 0)),
+                    shape: WidgetStatePropertyAll(RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     )),
                   ),
                   child: Text(
                     S.of(context).buy_now,
-                    style: Styles.head14w500
-                        .copyWith(color: AppColors.green),
+                    style: Styles.head14w500.copyWith(color: AppColors.green),
                   ),
                 ),
               )

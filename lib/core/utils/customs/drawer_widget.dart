@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:arestro/core/utils/components/default_lisTile.dart';
 import 'package:arestro/core/utils/customs/assets.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
@@ -6,7 +7,7 @@ import 'package:arestro/core/utils/customs/styles.dart';
 import 'package:arestro/core/utils/helpers/cache_helper.dart';
 import 'package:arestro/features/history/representation/views/history_view.dart';
 import 'package:arestro/features/home/representation/views/home_view.dart';
-import 'package:arestro/features/settings/retresentation/views/settings_view.dart';
+import 'package:arestro/features/settings/representation/views/settings_view.dart';
 import 'package:arestro/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -197,7 +198,9 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                         .then((value) async {
                       language = value;
                     });
-                  });
+                  }).then((value) {
+                    exit(0);
+                  },);
                   setState((){});
                 },
                 items: DrawerWidget.languages

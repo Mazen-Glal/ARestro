@@ -6,12 +6,16 @@ import 'package:arestro/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'core/utils/helpers/route_helper.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-Future<void> main()async {
+
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await CacheHelper.initialCacheHelper();
-  language = await  CacheHelper.getData(key: "language") ?? Assets.english;
-  ThemeData selectedTheme = ThemeHelper.isDarkMode ? ThemeHelper.darkTheme :ThemeHelper.lightTheme;
-  runApp(MyApp(selectedTheme: selectedTheme,));
+  language = await CacheHelper.getData(key: "language") ?? Assets.english;
+  ThemeData selectedTheme =
+      ThemeHelper.isDarkMode ? ThemeHelper.darkTheme : ThemeHelper.lightTheme;
+  runApp(MyApp(
+    selectedTheme: selectedTheme,
+  ));
 }
 
 class MyApp extends StatelessWidget {
@@ -21,12 +25,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      routerConfig:RouteHelper.getRouter,
+      routerConfig: RouteHelper.getRouter,
       title: 'Arestro',
       theme: selectedTheme,
       // change language from here (locale).
-      locale: const Locale("en"),
-      // locale: language == Assets.english ?const Locale("en"): const Locale("ar"),
+      // locale: const Locale("en"),
+      locale: language == Assets.english ? const Locale("en") : const Locale("ar"),
       localizationsDelegates: const [
         S.delegate,
         GlobalMaterialLocalizations.delegate,
@@ -37,5 +41,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-

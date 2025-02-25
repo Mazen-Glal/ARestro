@@ -2,7 +2,7 @@ import 'package:arestro/core/utils/components/default_app_bar.dart';
 import 'package:arestro/core/utils/customs/colors.dart';
 import 'package:arestro/core/utils/customs/drawer_widget.dart';
 import 'package:arestro/core/utils/customs/styles.dart';
-import 'package:arestro/features/settings/retresentation/views/widgets/settings_item.dart';
+import 'package:arestro/features/settings/representation/views/widgets/settings_item.dart';
 import 'package:arestro/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
